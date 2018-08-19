@@ -95,7 +95,7 @@
 #define BUILD_NCURSES 1
 /* #undef LEAKFREE_NCURSES */
 
-/* #undef BUILD_APCUPSD */
+#define BUILD_APCUPSD 1
 
 #define BUILD_IOSTATS 1
 
