@@ -101,7 +101,7 @@
 
 /* #undef BUILD_IPGFREQ */
 
-#define BUILD_WLAN 1
+/* #undef BUILD_WLAN */
 
 /* #undef BUILD_ICAL */
 
