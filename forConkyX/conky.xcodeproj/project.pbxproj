@@ -84,139 +84,54 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		016B1EB6813C4F5FBBEF7769 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/build.h */ = {isa = PBXBuildFile; fileRef = F78C86FE4D97432689649A70 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/build.h */; };
-		01BE42D72D7C4624890835E2 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/conky.cc */ = {isa = PBXBuildFile; fileRef = AE733589C45F408AB9BDB55B /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/conky.cc */; };
-		021D121CC3D64DED9AFCD089 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/text_object.cc */ = {isa = PBXBuildFile; fileRef = C3B88443A30E4BE5909DFD58 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/text_object.cc */; };
-		04B7BFAA2D1C480D95572507 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/specials.cc */ = {isa = PBXBuildFile; fileRef = 19021ABA80F047B8B3858751 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/specials.cc */; };
-		0A6213DE6C8644DBB0BEBEAB /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/lua-config.hh */ = {isa = PBXBuildFile; fileRef = 0F0FD5025E1348F3B2B851FC /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/lua-config.hh */; };
-		0B16F5B36A824BC2B7F84D41 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/c++wrap.cc */ = {isa = PBXBuildFile; fileRef = 9FC0238FDB204A178AA95400 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/c++wrap.cc */; };
-		0C44086848FC44BE80CAA8D7 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/mail.cc */ = {isa = PBXBuildFile; fileRef = 40217D9EDC0A4E00B82BA59F /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/mail.cc */; };
-		1032713325854EDEA52B4E53 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/ccurl_thread.h */ = {isa = PBXBuildFile; fileRef = ECC5FC1D6B114589B66E4E6C /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/ccurl_thread.h */; };
-		13417BBD412549F98656475D /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/luamm.hh */ = {isa = PBXBuildFile; fileRef = F059D4EE7B594ED7AB902570 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/luamm.hh */; };
-		16302455D09847C98FEE9807 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/net_stat.cc */ = {isa = PBXBuildFile; fileRef = 7EDAB6B8B16E4E81953126B4 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/net_stat.cc */; };
-		187EBB1B1D0A4FC4875F803B /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/c++wrap.hh */ = {isa = PBXBuildFile; fileRef = 6A1706C1DCB147419103270A /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/c++wrap.hh */; };
-		18A163E3E3BB4A0D969212D6 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/top.h */ = {isa = PBXBuildFile; fileRef = 1AF6AF66313A4D0DBD82EC37 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/top.h */; };
-		1D068ED5D4614D1DBD33C8B0 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 5ED81464021E474AA6E5E6AC /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/CMakeLists.txt */; };
-		1DF98E0057CC45738A11AA6E /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/eve.h */ = {isa = PBXBuildFile; fileRef = 2B6D58A7E1C54902B88C3CF3 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/eve.h */; };
-		1F334E8E88F345D7B860458A /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/template.h */ = {isa = PBXBuildFile; fileRef = AC4D01949C3043BAA6A62307 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/template.h */; };
-		21E5095C8D254833BBEF2D2F /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/x11.h */ = {isa = PBXBuildFile; fileRef = DDFDAAB6DC8C4619890E7ABF /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/x11.h */; };
-		29A29F8B83A545868E5361E1 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/top.cc */ = {isa = PBXBuildFile; fileRef = 0FD0F2F54ACC47DE956CADE7 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/top.cc */; };
-		2C2AF9B22FDC4389BFD2AD17 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/update-cb.cc */ = {isa = PBXBuildFile; fileRef = 06B01D43858C4B69AEF2768C /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/update-cb.cc */; };
-		2C8585F64345493F814D006A /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/mboxscan.cc */ = {isa = PBXBuildFile; fileRef = 070ECBD6E4E64EEBBE4B46D0 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/mboxscan.cc */; };
-		2FD58BC3742D4E1DA0FB6592 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/eve.cc */ = {isa = PBXBuildFile; fileRef = BD6B5F96EC5D4D97ABDA86A2 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/eve.cc */; };
-		3026DC91FFB14DF6AB904B3C /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/apcupsd.cc */ = {isa = PBXBuildFile; fileRef = D2FB70B788D14B7387EED1FE /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/apcupsd.cc */; };
-		3077F688888D4DC4AC0122AB /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/moc.cc */ = {isa = PBXBuildFile; fileRef = 921AC83A66A24202B11E26E9 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/moc.cc */; };
-		3301EB06F0914EC6A8F97F14 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/mpd.h */ = {isa = PBXBuildFile; fileRef = A9946BA8F04E4E5BBDA845AD /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/mpd.h */; };
-		3FAA2645F95D4F37A577DF69 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/combine.h */ = {isa = PBXBuildFile; fileRef = 99731A4837D94FFBAB2AF3FF /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/combine.h */; };
-		46463A9BF8AA440EB6718986 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/weather.h */ = {isa = PBXBuildFile; fileRef = D4B62CAB76474E28BABA6220 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/weather.h */; };
-		5130EE7D27B44DC6BE6F0A82 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/config.h */ = {isa = PBXBuildFile; fileRef = 7C56DD5A14D14EF4B97F23A9 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/config.h */; };
-		526E1100E8E94CF4A9A0C92D /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/proc.h */ = {isa = PBXBuildFile; fileRef = BEC30BBEC5F94A3AB40B7FCC /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/proc.h */; };
-		5278AE731C54412AA8A5AEBE /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/luamm.cc */ = {isa = PBXBuildFile; fileRef = 5A281DB92CE24616AFB69EA3 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/luamm.cc */; };
-		53E7E347E9C64EDAB59D8001 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/exec.cc */ = {isa = PBXBuildFile; fileRef = DC87991F968F4238B873E928 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/exec.cc */; };
-		5837A39872984F239D8E0DFA /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/mpd.cc */ = {isa = PBXBuildFile; fileRef = A6BB2AA607C146398FF7CE68 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/mpd.cc */; };
-		5D391C0FE1A7435F9A5E920A /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/entropy.h */ = {isa = PBXBuildFile; fileRef = C2408726A3A540BBADC3F92D /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/entropy.h */; };
-		5E64308D58654082B0D355AB /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/tailhead.cc */ = {isa = PBXBuildFile; fileRef = 37B3BB4374454676AB896F47 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/tailhead.cc */; };
-		601FF6EE3AFA494AB34B5E42 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/combine.cc */ = {isa = PBXBuildFile; fileRef = 0EF2DA2D40ED4EA2BF8F8A8F /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/combine.cc */; };
-		6317B5870ED14999A578EDEB /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/user.cc */ = {isa = PBXBuildFile; fileRef = 935FB233B22E404DB438759B /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/user.cc */; };
-		63AC6325D6A641FC910A2F89 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/x11.cc */ = {isa = PBXBuildFile; fileRef = F00423A82C894C33B5F90661 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/x11.cc */; };
-		6537C357486D469896ACCE6E /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/user.h */ = {isa = PBXBuildFile; fileRef = C4687A42AD0945C2AA27440A /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/user.h */; };
-		669C5D01B37E45B4B42C8032 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/diskio.h */ = {isa = PBXBuildFile; fileRef = CEA06B635C0745CB94933247 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/diskio.h */; };
-		6AC2BEBC96C24C6793625EE3 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/algebra.h */ = {isa = PBXBuildFile; fileRef = 145C766D984942C49F19FCA2 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/algebra.h */; };
-		6C1D6B6D83B54A208A15F3FC /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/mboxscan.h */ = {isa = PBXBuildFile; fileRef = 69EE460FE0554FEA8135B56B /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/mboxscan.h */; };
-		6C80E7690F2A447D9A6868D6 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/setting.hh */ = {isa = PBXBuildFile; fileRef = 4BBC652E3E474F6FAE7B1600 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/setting.hh */; };
-		6FD3C875570A41E99882F939 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/setting.cc */ = {isa = PBXBuildFile; fileRef = DA28F8D312B247F3AAA762AA /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/setting.cc */; };
-		70CA52F92709460AA0DC5052 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/data-source.cc */ = {isa = PBXBuildFile; fileRef = 470445FC865E42A89D14C194 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/data-source.cc */; };
-		713DE59C859B4F509F0F65E3 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/conky.h */ = {isa = PBXBuildFile; fileRef = 332C98B266464FC9B8CF5BCB /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/conky.h */; };
-		762419A822A14E53BDE07B18 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/fonts.h */ = {isa = PBXBuildFile; fileRef = BE435082627D4292912C7063 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/fonts.h */; };
-		7F0D19DA17BB410CA7B016B4 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/fs.cc */ = {isa = PBXBuildFile; fileRef = 9076A2203EEB40DB8EF480B4 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/fs.cc */; };
-		7FCB51D5CF474DA3BB70B6BC /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/common.h */ = {isa = PBXBuildFile; fileRef = 8F9B6DB1C6A742EC92FD2C6A /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/common.h */; };
-		861B1498BD91424898EFBF0A /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/specials.h */ = {isa = PBXBuildFile; fileRef = BB2C1C9D01834C5F89832FF1 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/specials.h */; };
-		871A4D978FBB42D7A4031A33 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/algebra.cc */ = {isa = PBXBuildFile; fileRef = 5B02510356AC40CDB3B0F326 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/algebra.cc */; };
-		93A4AA9C4CA1438BBD531387 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/text_object.h */ = {isa = PBXBuildFile; fileRef = F5A353CB4F94404FBD13FD3B /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/text_object.h */; };
-		94B5FE15CC604B21B2820DA5 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/libmpdclient.h */ = {isa = PBXBuildFile; fileRef = 19BB660C2C9E430FB91BF8BC /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/libmpdclient.h */; };
-		96F316F93E5D44E88A21D145 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/common.cc */ = {isa = PBXBuildFile; fileRef = 33225A47CBB94DAF928FF6E1 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/common.cc */; };
-		986A0BA370DE455EB703C4E4 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/ccurl_thread.cc */ = {isa = PBXBuildFile; fileRef = FA95237EC5304AFB880F67AA /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/ccurl_thread.cc */; };
-		9B153D1F39C845AA81F01C50 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/timeinfo.h */ = {isa = PBXBuildFile; fileRef = 652F2F9440654F8795203D56 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/timeinfo.h */; };
-		9BF776756F944B52AB0CF201 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/cpu.cc */ = {isa = PBXBuildFile; fileRef = 3E04FC3B1A9A419992BEBAC7 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/cpu.cc */; };
-		A2F689393203489E9A994F96 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/colours.cc */ = {isa = PBXBuildFile; fileRef = 7BF1A98A40A4485281300770 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/colours.cc */; };
-		A7654208326945798368F2ED /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/colours.h */ = {isa = PBXBuildFile; fileRef = EFF403AC44A747C080EE4042 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/colours.h */; };
-		AADA5F3B775A424B862C27D9 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/temphelper.h */ = {isa = PBXBuildFile; fileRef = D3D8506F7C1B4F999626E8D0 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/temphelper.h */; };
-		AB2E06F08FD74F79A56F83A8 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/update-cb.hh */ = {isa = PBXBuildFile; fileRef = 9A8B1EAE102E4D538D262043 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/update-cb.hh */; };
-		ABD11C882CED452AA4C32562 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/tailhead.h */ = {isa = PBXBuildFile; fileRef = EAEEBB7FE9D648FBB810BC3A /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/tailhead.h */; };
-		AC32FA6607284723A86C793F /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/lua-config.cc */ = {isa = PBXBuildFile; fileRef = 53925A9BDCC5465C9FB1710A /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/lua-config.cc */; };
-		ADE9EA9CAA6444919181A975 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/read_tcpip.h */ = {isa = PBXBuildFile; fileRef = 4F405F3F1F6C4FF8910A7076 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/read_tcpip.h */; };
-		AED1800A5FF242B581402A01 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/misc.cc */ = {isa = PBXBuildFile; fileRef = 02F72FE7841A4668870AF592 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/misc.cc */; };
-		B696E2A4FE7446CF97A00FBD /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/darwin.mm */ = {isa = PBXBuildFile; fileRef = 1EAEA7CBD6604075B5A653DD /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/darwin.mm */; };
-		B6EEC3D55D664B63BE015979 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/read_tcpip.cc */ = {isa = PBXBuildFile; fileRef = B48BC4BE76DF42E9A17CEA8D /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/read_tcpip.cc */; };
-		B70BFBA252A346D292AF7289 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/libmpdclient.cc */ = {isa = PBXBuildFile; fileRef = 943BBEFAF3E04CDDBD4586AF /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/libmpdclient.cc */; };
-		BBB865C4DC4D4BF081DF131A /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/moc.h */ = {isa = PBXBuildFile; fileRef = 8C72D82B46494FF39EA871A0 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/moc.h */; };
-		BBD5AD04394646A99C164DEA /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/cpu.h */ = {isa = PBXBuildFile; fileRef = 22663E63729E456AB64D452E /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/cpu.h */; };
-		BC401F4443284653AED83B28 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/prioqueue.cc */ = {isa = PBXBuildFile; fileRef = 1900C391660F46B5B4236022 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/prioqueue.cc */; };
-		BE00FC796717422AB9B18F91 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/cmus.cc */ = {isa = PBXBuildFile; fileRef = DCCA3EB9C6E34E169CDA2AC8 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/cmus.cc */; };
-		BE093E4C4FDD43DF87FBFA21 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/mail.h */ = {isa = PBXBuildFile; fileRef = D76F4DEE349B4001895C7C30 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/mail.h */; };
-		BE8EDB3A63C24418B158F6F2 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/logging.h */ = {isa = PBXBuildFile; fileRef = C22CDE9E73BB48EA9324A7EC /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/logging.h */; };
-		C1F7BAC24B2E4B2D9F081E0A /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/diskio.cc */ = {isa = PBXBuildFile; fileRef = 5A65F22B2F684ED6B8CBA3AB /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/diskio.cc */; };
-		C4024A88F34448C399123251 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/core.cc */ = {isa = PBXBuildFile; fileRef = 4B098C465CB94D68BF4A2381 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/core.cc */; };
-		C57D99B361EB4D0FABD02CEA /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/imlib2.cc */ = {isa = PBXBuildFile; fileRef = 5F6F4C7273E54B03B5DD9CEF /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/imlib2.cc */; };
-		CA6EA9E8E6854CE39D5B94E1 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/darwin.h */ = {isa = PBXBuildFile; fileRef = 249F5614C17742C69E17F988 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/darwin.h */; };
-		CAA9C7244496471B87EBBEA8 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/scroll.h */ = {isa = PBXBuildFile; fileRef = BB4EAE1146744FB3A8BCD6AB /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/scroll.h */; };
-		CBE14A29934143F986742214 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/entropy.cc */ = {isa = PBXBuildFile; fileRef = 8082DEC807CD46C28345294C /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/entropy.cc */; };
-		CFC94DFF304F4DE98E1925A1 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/imlib2.h */ = {isa = PBXBuildFile; fileRef = 16FDF9B2C8444264882651B7 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/imlib2.h */; };
-		D391721E2E844701B9E20659 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/exec.h */ = {isa = PBXBuildFile; fileRef = 886E6980E39E4F2C97130EA0 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/exec.h */; };
-		D3FFADDD4D244C47A08E8E90 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/darwin_sip.h */ = {isa = PBXBuildFile; fileRef = 80AF4FA213F74C1D95A50FED /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/darwin_sip.h */; };
-		D923F33E8EFA4BD69E5160CC /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/proc.cc */ = {isa = PBXBuildFile; fileRef = DFF0CDEB3174438B83825705 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/proc.cc */; };
-		DA67D2589D3A4AA0A02C4629 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/weather.cc */ = {isa = PBXBuildFile; fileRef = 8A632F379FD54E94A5BC0E43 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/weather.cc */; };
-		DF09160030EC40709AB46B75 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/nc.cc */ = {isa = PBXBuildFile; fileRef = 09E415F4F9D74A24BFB6C768 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/nc.cc */; };
-		E19C3476A4084075AB0795E5 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/nc.h */ = {isa = PBXBuildFile; fileRef = 47045A36505A4152BF9B514A /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/nc.h */; };
-		E2FF3184252441D9BC2B1C74 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/llua.cc */ = {isa = PBXBuildFile; fileRef = 784F7B0948E54DC2B7EA1F83 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/llua.cc */; };
-		E3560E4521594A37987CAB3C /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/prioqueue.h */ = {isa = PBXBuildFile; fileRef = D6908A6DF70B40B7B95BDDC6 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/prioqueue.h */; };
-		E5093143AEEF49D8A2CB3020 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/semaphore.hh */ = {isa = PBXBuildFile; fileRef = 0EBA8A5235A44D71B69A2266 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/semaphore.hh */; };
-		E568C5FA370F49A4A1421F59 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/template.cc */ = {isa = PBXBuildFile; fileRef = 8A92F692A292484CBDEFD054 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/template.cc */; };
-		E9AD34A70FC24310A09D66AE /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/timeinfo.cc */ = {isa = PBXBuildFile; fileRef = C5E8C180227B425F92EE38FA /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/timeinfo.cc */; };
-		EA132172101C40448FBB8B2D /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/llua.h */ = {isa = PBXBuildFile; fileRef = C3C183F014B5414994DC3C48 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/llua.h */; };
-		ECD4F88151A64B68AC5498A7 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/fonts.cc */ = {isa = PBXBuildFile; fileRef = 4077B7141DDD40BDAAE7E0EF /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/fonts.cc */; };
-		ED17AAD22DB54265A558AA26 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/misc.h */ = {isa = PBXBuildFile; fileRef = 314898C407BF4ADD948AFB20 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/misc.h */; };
-		EE8EB397634945BB9AE12529 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/apcupsd.h */ = {isa = PBXBuildFile; fileRef = 71DAF6B8C45647919CF3B9A5 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/apcupsd.h */; };
-		EF909C266BAE446FBB5EC900 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/scroll.cc */ = {isa = PBXBuildFile; fileRef = 3C09715ED37C4075AC946E1D /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/scroll.cc */; };
-		F309ADA39452447DA255DB75 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/data-source.hh */ = {isa = PBXBuildFile; fileRef = C2FDE6B9D9F644378B7B6356 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/data-source.hh */; };
-		F37490C2E258485B980846E2 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/fs.h */ = {isa = PBXBuildFile; fileRef = A5C75CD1393143D4A26666BB /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/fs.h */; };
-		F4CC471AB28A4D4497C69125 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/i18n.h */ = {isa = PBXBuildFile; fileRef = 9AFF746BAEDD4CF89C64F053 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/i18n.h */; };
-		F58046039AA746AC80AFA539 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/net_stat.h */ = {isa = PBXBuildFile; fileRef = 8DED6661065D40FE8964E00A /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/net_stat.h */; };
-		F6AC35C95B8C4497AAC217A5 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/core.h */ = {isa = PBXBuildFile; fileRef = 0AAFBAB28DA0452D85ACD1E3 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/core.h */; };
-		F741BA87123F464890837D65 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/temphelper.cc */ = {isa = PBXBuildFile; fileRef = E3B8CE0CD60645ADAC39FB30 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/temphelper.cc */; };
-		F8C3CAA819FE427080B3FEFF /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/cmus.h */ = {isa = PBXBuildFile; fileRef = A066E78E3D2040729DAF1F2F /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/cmus.h */; };
+		01BE42D72D7C4624890835E2 /* conky.cc in Sources */ = {isa = PBXBuildFile; fileRef = AE733589C45F408AB9BDB55B /* conky.cc */; };
+		021D121CC3D64DED9AFCD089 /* text_object.cc in Sources */ = {isa = PBXBuildFile; fileRef = C3B88443A30E4BE5909DFD58 /* text_object.cc */; };
+		04B7BFAA2D1C480D95572507 /* specials.cc in Sources */ = {isa = PBXBuildFile; fileRef = 19021ABA80F047B8B3858751 /* specials.cc */; };
+		0B16F5B36A824BC2B7F84D41 /* c++wrap.cc in Sources */ = {isa = PBXBuildFile; fileRef = 9FC0238FDB204A178AA95400 /* c++wrap.cc */; };
+		0C44086848FC44BE80CAA8D7 /* mail.cc in Sources */ = {isa = PBXBuildFile; fileRef = 40217D9EDC0A4E00B82BA59F /* mail.cc */; };
+		16302455D09847C98FEE9807 /* net_stat.cc in Sources */ = {isa = PBXBuildFile; fileRef = 7EDAB6B8B16E4E81953126B4 /* net_stat.cc */; };
+		29A29F8B83A545868E5361E1 /* top.cc in Sources */ = {isa = PBXBuildFile; fileRef = 0FD0F2F54ACC47DE956CADE7 /* top.cc */; };
+		2C2AF9B22FDC4389BFD2AD17 /* update-cb.cc in Sources */ = {isa = PBXBuildFile; fileRef = 06B01D43858C4B69AEF2768C /* update-cb.cc */; };
+		2C8585F64345493F814D006A /* mboxscan.cc in Sources */ = {isa = PBXBuildFile; fileRef = 070ECBD6E4E64EEBBE4B46D0 /* mboxscan.cc */; };
+		2FD58BC3742D4E1DA0FB6592 /* eve.cc in Sources */ = {isa = PBXBuildFile; fileRef = BD6B5F96EC5D4D97ABDA86A2 /* eve.cc */; };
+		3026DC91FFB14DF6AB904B3C /* apcupsd.cc in Sources */ = {isa = PBXBuildFile; fileRef = D2FB70B788D14B7387EED1FE /* apcupsd.cc */; };
+		3077F688888D4DC4AC0122AB /* moc.cc in Sources */ = {isa = PBXBuildFile; fileRef = 921AC83A66A24202B11E26E9 /* moc.cc */; };
+		5278AE731C54412AA8A5AEBE /* luamm.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5A281DB92CE24616AFB69EA3 /* luamm.cc */; };
+		53E7E347E9C64EDAB59D8001 /* exec.cc in Sources */ = {isa = PBXBuildFile; fileRef = DC87991F968F4238B873E928 /* exec.cc */; };
+		5837A39872984F239D8E0DFA /* mpd.cc in Sources */ = {isa = PBXBuildFile; fileRef = A6BB2AA607C146398FF7CE68 /* mpd.cc */; };
+		5E64308D58654082B0D355AB /* tailhead.cc in Sources */ = {isa = PBXBuildFile; fileRef = 37B3BB4374454676AB896F47 /* tailhead.cc */; };
+		601FF6EE3AFA494AB34B5E42 /* combine.cc in Sources */ = {isa = PBXBuildFile; fileRef = 0EF2DA2D40ED4EA2BF8F8A8F /* combine.cc */; };
+		6317B5870ED14999A578EDEB /* user.cc in Sources */ = {isa = PBXBuildFile; fileRef = 935FB233B22E404DB438759B /* user.cc */; };
+		63AC6325D6A641FC910A2F89 /* x11.cc in Sources */ = {isa = PBXBuildFile; fileRef = F00423A82C894C33B5F90661 /* x11.cc */; };
+		6FD3C875570A41E99882F939 /* setting.cc in Sources */ = {isa = PBXBuildFile; fileRef = DA28F8D312B247F3AAA762AA /* setting.cc */; };
+		70CA52F92709460AA0DC5052 /* data-source.cc in Sources */ = {isa = PBXBuildFile; fileRef = 470445FC865E42A89D14C194 /* data-source.cc */; };
+		7F0D19DA17BB410CA7B016B4 /* fs.cc in Sources */ = {isa = PBXBuildFile; fileRef = 9076A2203EEB40DB8EF480B4 /* fs.cc */; };
+		871A4D978FBB42D7A4031A33 /* algebra.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5B02510356AC40CDB3B0F326 /* algebra.cc */; };
+		96F316F93E5D44E88A21D145 /* common.cc in Sources */ = {isa = PBXBuildFile; fileRef = 33225A47CBB94DAF928FF6E1 /* common.cc */; };
+		986A0BA370DE455EB703C4E4 /* ccurl_thread.cc in Sources */ = {isa = PBXBuildFile; fileRef = FA95237EC5304AFB880F67AA /* ccurl_thread.cc */; };
+		9BF776756F944B52AB0CF201 /* cpu.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3E04FC3B1A9A419992BEBAC7 /* cpu.cc */; };
+		A2F689393203489E9A994F96 /* colours.cc in Sources */ = {isa = PBXBuildFile; fileRef = 7BF1A98A40A4485281300770 /* colours.cc */; };
+		AC32FA6607284723A86C793F /* lua-config.cc in Sources */ = {isa = PBXBuildFile; fileRef = 53925A9BDCC5465C9FB1710A /* lua-config.cc */; };
+		AED1800A5FF242B581402A01 /* misc.cc in Sources */ = {isa = PBXBuildFile; fileRef = 02F72FE7841A4668870AF592 /* misc.cc */; };
+		B696E2A4FE7446CF97A00FBD /* darwin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1EAEA7CBD6604075B5A653DD /* darwin.mm */; };
+		B6EEC3D55D664B63BE015979 /* read_tcpip.cc in Sources */ = {isa = PBXBuildFile; fileRef = B48BC4BE76DF42E9A17CEA8D /* read_tcpip.cc */; };
+		B70BFBA252A346D292AF7289 /* libmpdclient.cc in Sources */ = {isa = PBXBuildFile; fileRef = 943BBEFAF3E04CDDBD4586AF /* libmpdclient.cc */; };
+		BC401F4443284653AED83B28 /* prioqueue.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1900C391660F46B5B4236022 /* prioqueue.cc */; };
+		BE00FC796717422AB9B18F91 /* cmus.cc in Sources */ = {isa = PBXBuildFile; fileRef = DCCA3EB9C6E34E169CDA2AC8 /* cmus.cc */; };
+		C1F7BAC24B2E4B2D9F081E0A /* diskio.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5A65F22B2F684ED6B8CBA3AB /* diskio.cc */; };
+		C4024A88F34448C399123251 /* core.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4B098C465CB94D68BF4A2381 /* core.cc */; };
+		C57D99B361EB4D0FABD02CEA /* imlib2.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5F6F4C7273E54B03B5DD9CEF /* imlib2.cc */; };
+		CBE14A29934143F986742214 /* entropy.cc in Sources */ = {isa = PBXBuildFile; fileRef = 8082DEC807CD46C28345294C /* entropy.cc */; };
+		D923F33E8EFA4BD69E5160CC /* proc.cc in Sources */ = {isa = PBXBuildFile; fileRef = DFF0CDEB3174438B83825705 /* proc.cc */; };
+		DA67D2589D3A4AA0A02C4629 /* weather.cc in Sources */ = {isa = PBXBuildFile; fileRef = 8A632F379FD54E94A5BC0E43 /* weather.cc */; };
+		DF09160030EC40709AB46B75 /* nc.cc in Sources */ = {isa = PBXBuildFile; fileRef = 09E415F4F9D74A24BFB6C768 /* nc.cc */; };
+		E2FF3184252441D9BC2B1C74 /* llua.cc in Sources */ = {isa = PBXBuildFile; fileRef = 784F7B0948E54DC2B7EA1F83 /* llua.cc */; };
+		E568C5FA370F49A4A1421F59 /* template.cc in Sources */ = {isa = PBXBuildFile; fileRef = 8A92F692A292484CBDEFD054 /* template.cc */; };
+		E9AD34A70FC24310A09D66AE /* timeinfo.cc in Sources */ = {isa = PBXBuildFile; fileRef = C5E8C180227B425F92EE38FA /* timeinfo.cc */; };
+		ECD4F88151A64B68AC5498A7 /* fonts.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4077B7141DDD40BDAAE7E0EF /* fonts.cc */; };
+		EF909C266BAE446FBB5EC900 /* scroll.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3C09715ED37C4075AC946E1D /* scroll.cc */; };
+		F741BA87123F464890837D65 /* temphelper.cc in Sources */ = {isa = PBXBuildFile; fileRef = E3B8CE0CD60645ADAC39FB30 /* temphelper.cc */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXBuildStyle section */
-		2C050DF4239C46B1899790D8 /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		40E40859121B420F810B27C8 /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		6F44820623E041A98100BA89 /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		87551AA8AA1447D09F0B2129 /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-/* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
 		2B9635879A62413EACFC109E /* PBXContainerItemProxy */ = {
@@ -285,111 +200,111 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02F72FE7841A4668870AF592 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/misc.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = misc.cc; path = src/misc.cc; sourceTree = SOURCE_ROOT; };
-		06B01D43858C4B69AEF2768C /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/update-cb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "update-cb.cc"; path = "src/update-cb.cc"; sourceTree = SOURCE_ROOT; };
-		070ECBD6E4E64EEBBE4B46D0 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/mboxscan.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mboxscan.cc; path = src/mboxscan.cc; sourceTree = SOURCE_ROOT; };
-		0850E52B631A49B38C1A419C /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/data/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = data/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		09E415F4F9D74A24BFB6C768 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/nc.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = nc.cc; path = src/nc.cc; sourceTree = SOURCE_ROOT; };
-		0AAFBAB28DA0452D85ACD1E3 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/core.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = core.h; path = src/core.h; sourceTree = SOURCE_ROOT; };
-		0EBA8A5235A44D71B69A2266 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/semaphore.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = semaphore.hh; path = src/semaphore.hh; sourceTree = SOURCE_ROOT; };
-		0EF2DA2D40ED4EA2BF8F8A8F /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/combine.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = combine.cc; path = src/combine.cc; sourceTree = SOURCE_ROOT; };
-		0F0FD5025E1348F3B2B851FC /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/lua-config.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = "lua-config.hh"; path = "src/lua-config.hh"; sourceTree = SOURCE_ROOT; };
-		0FD0F2F54ACC47DE956CADE7 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/top.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = top.cc; path = src/top.cc; sourceTree = SOURCE_ROOT; };
-		145C766D984942C49F19FCA2 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/algebra.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = algebra.h; path = src/algebra.h; sourceTree = SOURCE_ROOT; };
-		16FDF9B2C8444264882651B7 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/imlib2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imlib2.h; path = src/imlib2.h; sourceTree = SOURCE_ROOT; };
-		1900C391660F46B5B4236022 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/prioqueue.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = prioqueue.cc; path = src/prioqueue.cc; sourceTree = SOURCE_ROOT; };
-		19021ABA80F047B8B3858751 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/specials.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = specials.cc; path = src/specials.cc; sourceTree = SOURCE_ROOT; };
-		19BB660C2C9E430FB91BF8BC /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/libmpdclient.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = libmpdclient.h; path = src/libmpdclient.h; sourceTree = SOURCE_ROOT; };
-		1AF6AF66313A4D0DBD82EC37 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/top.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = top.h; path = src/top.h; sourceTree = SOURCE_ROOT; };
-		1EAEA7CBD6604075B5A653DD /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/darwin.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = darwin.mm; path = src/darwin.mm; sourceTree = SOURCE_ROOT; };
-		22663E63729E456AB64D452E /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/cpu.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cpu.h; path = src/cpu.h; sourceTree = SOURCE_ROOT; };
-		249F5614C17742C69E17F988 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/darwin.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = darwin.h; path = src/darwin.h; sourceTree = SOURCE_ROOT; };
-		2B6D58A7E1C54902B88C3CF3 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/eve.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = eve.h; path = src/eve.h; sourceTree = SOURCE_ROOT; };
-		314898C407BF4ADD948AFB20 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/misc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = misc.h; path = src/misc.h; sourceTree = SOURCE_ROOT; };
-		33225A47CBB94DAF928FF6E1 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/common.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = common.cc; path = src/common.cc; sourceTree = SOURCE_ROOT; };
-		332C98B266464FC9B8CF5BCB /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/conky.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = conky.h; path = src/conky.h; sourceTree = SOURCE_ROOT; };
-		37B3BB4374454676AB896F47 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/tailhead.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tailhead.cc; path = src/tailhead.cc; sourceTree = SOURCE_ROOT; };
-		3C09715ED37C4075AC946E1D /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/scroll.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scroll.cc; path = src/scroll.cc; sourceTree = SOURCE_ROOT; };
-		3E04FC3B1A9A419992BEBAC7 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/cpu.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cpu.cc; path = src/cpu.cc; sourceTree = SOURCE_ROOT; };
-		40217D9EDC0A4E00B82BA59F /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/mail.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mail.cc; path = src/mail.cc; sourceTree = SOURCE_ROOT; };
-		4077B7141DDD40BDAAE7E0EF /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/fonts.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fonts.cc; path = src/fonts.cc; sourceTree = SOURCE_ROOT; };
-		470445FC865E42A89D14C194 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/data-source.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "data-source.cc"; path = "src/data-source.cc"; sourceTree = SOURCE_ROOT; };
-		47045A36505A4152BF9B514A /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/nc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nc.h; path = src/nc.h; sourceTree = SOURCE_ROOT; };
-		4B098C465CB94D68BF4A2381 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/core.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = core.cc; path = src/core.cc; sourceTree = SOURCE_ROOT; };
-		4BBC652E3E474F6FAE7B1600 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/setting.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = setting.hh; path = src/setting.hh; sourceTree = SOURCE_ROOT; };
-		4F405F3F1F6C4FF8910A7076 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/read_tcpip.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = read_tcpip.h; path = src/read_tcpip.h; sourceTree = SOURCE_ROOT; };
+		02F72FE7841A4668870AF592 /* misc.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = misc.cc; path = src/misc.cc; sourceTree = SOURCE_ROOT; };
+		06B01D43858C4B69AEF2768C /* update-cb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "update-cb.cc"; path = "src/update-cb.cc"; sourceTree = SOURCE_ROOT; };
+		070ECBD6E4E64EEBBE4B46D0 /* mboxscan.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mboxscan.cc; path = src/mboxscan.cc; sourceTree = SOURCE_ROOT; };
+		0850E52B631A49B38C1A419C /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = data/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		09E415F4F9D74A24BFB6C768 /* nc.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = nc.cc; path = src/nc.cc; sourceTree = SOURCE_ROOT; };
+		0AAFBAB28DA0452D85ACD1E3 /* core.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = core.h; path = src/core.h; sourceTree = SOURCE_ROOT; };
+		0EBA8A5235A44D71B69A2266 /* semaphore.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = semaphore.hh; path = src/semaphore.hh; sourceTree = SOURCE_ROOT; };
+		0EF2DA2D40ED4EA2BF8F8A8F /* combine.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = combine.cc; path = src/combine.cc; sourceTree = SOURCE_ROOT; };
+		0F0FD5025E1348F3B2B851FC /* lua-config.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = "lua-config.hh"; path = "src/lua-config.hh"; sourceTree = SOURCE_ROOT; };
+		0FD0F2F54ACC47DE956CADE7 /* top.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = top.cc; path = src/top.cc; sourceTree = SOURCE_ROOT; };
+		145C766D984942C49F19FCA2 /* algebra.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = algebra.h; path = src/algebra.h; sourceTree = SOURCE_ROOT; };
+		16FDF9B2C8444264882651B7 /* imlib2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imlib2.h; path = src/imlib2.h; sourceTree = SOURCE_ROOT; };
+		1900C391660F46B5B4236022 /* prioqueue.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = prioqueue.cc; path = src/prioqueue.cc; sourceTree = SOURCE_ROOT; };
+		19021ABA80F047B8B3858751 /* specials.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = specials.cc; path = src/specials.cc; sourceTree = SOURCE_ROOT; };
+		19BB660C2C9E430FB91BF8BC /* libmpdclient.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = libmpdclient.h; path = src/libmpdclient.h; sourceTree = SOURCE_ROOT; };
+		1AF6AF66313A4D0DBD82EC37 /* top.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = top.h; path = src/top.h; sourceTree = SOURCE_ROOT; };
+		1EAEA7CBD6604075B5A653DD /* darwin.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = darwin.mm; path = src/darwin.mm; sourceTree = SOURCE_ROOT; };
+		22663E63729E456AB64D452E /* cpu.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cpu.h; path = src/cpu.h; sourceTree = SOURCE_ROOT; };
+		249F5614C17742C69E17F988 /* darwin.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = darwin.h; path = src/darwin.h; sourceTree = SOURCE_ROOT; };
+		2B6D58A7E1C54902B88C3CF3 /* eve.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = eve.h; path = src/eve.h; sourceTree = SOURCE_ROOT; };
+		314898C407BF4ADD948AFB20 /* misc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = misc.h; path = src/misc.h; sourceTree = SOURCE_ROOT; };
+		33225A47CBB94DAF928FF6E1 /* common.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = common.cc; path = src/common.cc; sourceTree = SOURCE_ROOT; };
+		332C98B266464FC9B8CF5BCB /* conky.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = conky.h; path = src/conky.h; sourceTree = SOURCE_ROOT; };
+		37B3BB4374454676AB896F47 /* tailhead.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tailhead.cc; path = src/tailhead.cc; sourceTree = SOURCE_ROOT; };
+		3C09715ED37C4075AC946E1D /* scroll.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scroll.cc; path = src/scroll.cc; sourceTree = SOURCE_ROOT; };
+		3E04FC3B1A9A419992BEBAC7 /* cpu.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cpu.cc; path = src/cpu.cc; sourceTree = SOURCE_ROOT; };
+		40217D9EDC0A4E00B82BA59F /* mail.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mail.cc; path = src/mail.cc; sourceTree = SOURCE_ROOT; };
+		4077B7141DDD40BDAAE7E0EF /* fonts.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fonts.cc; path = src/fonts.cc; sourceTree = SOURCE_ROOT; };
+		470445FC865E42A89D14C194 /* data-source.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "data-source.cc"; path = "src/data-source.cc"; sourceTree = SOURCE_ROOT; };
+		47045A36505A4152BF9B514A /* nc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nc.h; path = src/nc.h; sourceTree = SOURCE_ROOT; };
+		4B098C465CB94D68BF4A2381 /* core.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = core.cc; path = src/core.cc; sourceTree = SOURCE_ROOT; };
+		4BBC652E3E474F6FAE7B1600 /* setting.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = setting.hh; path = src/setting.hh; sourceTree = SOURCE_ROOT; };
+		4F405F3F1F6C4FF8910A7076 /* read_tcpip.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = read_tcpip.h; path = src/read_tcpip.h; sourceTree = SOURCE_ROOT; };
 		52FA540C37D34D9C91E5F503 /* conky */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = conky; sourceTree = BUILT_PRODUCTS_DIR; };
-		53925A9BDCC5465C9FB1710A /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/lua-config.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "lua-config.cc"; path = "src/lua-config.cc"; sourceTree = SOURCE_ROOT; };
-		5A281DB92CE24616AFB69EA3 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/luamm.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = luamm.cc; path = src/luamm.cc; sourceTree = SOURCE_ROOT; };
-		5A65F22B2F684ED6B8CBA3AB /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/diskio.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = diskio.cc; path = src/diskio.cc; sourceTree = SOURCE_ROOT; };
-		5B02510356AC40CDB3B0F326 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/algebra.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = algebra.cc; path = src/algebra.cc; sourceTree = SOURCE_ROOT; };
-		5ED81464021E474AA6E5E6AC /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		5F6F4C7273E54B03B5DD9CEF /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/imlib2.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imlib2.cc; path = src/imlib2.cc; sourceTree = SOURCE_ROOT; };
-		652F2F9440654F8795203D56 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/timeinfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = timeinfo.h; path = src/timeinfo.h; sourceTree = SOURCE_ROOT; };
-		69EE460FE0554FEA8135B56B /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/mboxscan.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mboxscan.h; path = src/mboxscan.h; sourceTree = SOURCE_ROOT; };
-		6A1706C1DCB147419103270A /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/c++wrap.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = "c++wrap.hh"; path = "src/c++wrap.hh"; sourceTree = SOURCE_ROOT; };
-		71DAF6B8C45647919CF3B9A5 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/apcupsd.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = apcupsd.h; path = src/apcupsd.h; sourceTree = SOURCE_ROOT; };
-		784F7B0948E54DC2B7EA1F83 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/llua.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = llua.cc; path = src/llua.cc; sourceTree = SOURCE_ROOT; };
-		7BF1A98A40A4485281300770 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/colours.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = colours.cc; path = src/colours.cc; sourceTree = SOURCE_ROOT; };
-		7C56DD5A14D14EF4B97F23A9 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = config.h; path = forConkyX/config.h; sourceTree = SOURCE_ROOT; };
-		7EDAB6B8B16E4E81953126B4 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/net_stat.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = net_stat.cc; path = src/net_stat.cc; sourceTree = SOURCE_ROOT; };
-		8082DEC807CD46C28345294C /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/entropy.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = entropy.cc; path = src/entropy.cc; sourceTree = SOURCE_ROOT; };
-		80AF4FA213F74C1D95A50FED /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/darwin_sip.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = darwin_sip.h; path = src/darwin_sip.h; sourceTree = SOURCE_ROOT; };
-		886E6980E39E4F2C97130EA0 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/exec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = exec.h; path = src/exec.h; sourceTree = SOURCE_ROOT; };
-		8A632F379FD54E94A5BC0E43 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/weather.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = weather.cc; path = src/weather.cc; sourceTree = SOURCE_ROOT; };
-		8A92F692A292484CBDEFD054 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/template.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = template.cc; path = src/template.cc; sourceTree = SOURCE_ROOT; };
-		8C72D82B46494FF39EA871A0 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/moc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = moc.h; path = src/moc.h; sourceTree = SOURCE_ROOT; };
-		8DED6661065D40FE8964E00A /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/net_stat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = net_stat.h; path = src/net_stat.h; sourceTree = SOURCE_ROOT; };
-		8F9B6DB1C6A742EC92FD2C6A /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = common.h; path = src/common.h; sourceTree = SOURCE_ROOT; };
-		9076A2203EEB40DB8EF480B4 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/fs.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fs.cc; path = src/fs.cc; sourceTree = SOURCE_ROOT; };
-		921AC83A66A24202B11E26E9 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/moc.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc.cc; path = src/moc.cc; sourceTree = SOURCE_ROOT; };
-		935FB233B22E404DB438759B /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/user.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = user.cc; path = src/user.cc; sourceTree = SOURCE_ROOT; };
-		943BBEFAF3E04CDDBD4586AF /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/libmpdclient.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = libmpdclient.cc; path = src/libmpdclient.cc; sourceTree = SOURCE_ROOT; };
-		99731A4837D94FFBAB2AF3FF /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/combine.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = combine.h; path = src/combine.h; sourceTree = SOURCE_ROOT; };
-		9A8B1EAE102E4D538D262043 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/update-cb.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = "update-cb.hh"; path = "src/update-cb.hh"; sourceTree = SOURCE_ROOT; };
-		9AFF746BAEDD4CF89C64F053 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/i18n.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = i18n.h; path = src/i18n.h; sourceTree = SOURCE_ROOT; };
-		9FC0238FDB204A178AA95400 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/c++wrap.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "c++wrap.cc"; path = "src/c++wrap.cc"; sourceTree = SOURCE_ROOT; };
-		A066E78E3D2040729DAF1F2F /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/cmus.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cmus.h; path = src/cmus.h; sourceTree = SOURCE_ROOT; };
-		A5C75CD1393143D4A26666BB /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/fs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fs.h; path = src/fs.h; sourceTree = SOURCE_ROOT; };
-		A6BB2AA607C146398FF7CE68 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/mpd.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mpd.cc; path = src/mpd.cc; sourceTree = SOURCE_ROOT; };
-		A9946BA8F04E4E5BBDA845AD /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/mpd.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mpd.h; path = src/mpd.h; sourceTree = SOURCE_ROOT; };
-		AC4D01949C3043BAA6A62307 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/template.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = template.h; path = src/template.h; sourceTree = SOURCE_ROOT; };
-		AE733589C45F408AB9BDB55B /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/conky.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = conky.cc; path = src/conky.cc; sourceTree = SOURCE_ROOT; };
-		B48BC4BE76DF42E9A17CEA8D /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/read_tcpip.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = read_tcpip.cc; path = src/read_tcpip.cc; sourceTree = SOURCE_ROOT; };
-		B7E1A76BC4E44DFDBC24AEE3 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		BB2C1C9D01834C5F89832FF1 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/specials.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = specials.h; path = src/specials.h; sourceTree = SOURCE_ROOT; };
-		BB4EAE1146744FB3A8BCD6AB /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/scroll.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = scroll.h; path = src/scroll.h; sourceTree = SOURCE_ROOT; };
-		BD6B5F96EC5D4D97ABDA86A2 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/eve.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = eve.cc; path = src/eve.cc; sourceTree = SOURCE_ROOT; };
-		BE435082627D4292912C7063 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/fonts.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fonts.h; path = src/fonts.h; sourceTree = SOURCE_ROOT; };
-		BEC30BBEC5F94A3AB40B7FCC /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/proc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = proc.h; path = src/proc.h; sourceTree = SOURCE_ROOT; };
-		C22CDE9E73BB48EA9324A7EC /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/logging.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = logging.h; path = src/logging.h; sourceTree = SOURCE_ROOT; };
-		C2408726A3A540BBADC3F92D /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/entropy.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = entropy.h; path = src/entropy.h; sourceTree = SOURCE_ROOT; };
-		C2FDE6B9D9F644378B7B6356 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/data-source.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = "data-source.hh"; path = "src/data-source.hh"; sourceTree = SOURCE_ROOT; };
-		C3B88443A30E4BE5909DFD58 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/text_object.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = text_object.cc; path = src/text_object.cc; sourceTree = SOURCE_ROOT; };
-		C3C183F014B5414994DC3C48 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/llua.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = llua.h; path = src/llua.h; sourceTree = SOURCE_ROOT; };
-		C4687A42AD0945C2AA27440A /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/user.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = user.h; path = src/user.h; sourceTree = SOURCE_ROOT; };
-		C5E8C180227B425F92EE38FA /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/timeinfo.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = timeinfo.cc; path = src/timeinfo.cc; sourceTree = SOURCE_ROOT; };
-		CEA06B635C0745CB94933247 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/diskio.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = diskio.h; path = src/diskio.h; sourceTree = SOURCE_ROOT; };
-		D2FB70B788D14B7387EED1FE /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/apcupsd.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = apcupsd.cc; path = src/apcupsd.cc; sourceTree = SOURCE_ROOT; };
-		D3D8506F7C1B4F999626E8D0 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/temphelper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = temphelper.h; path = src/temphelper.h; sourceTree = SOURCE_ROOT; };
-		D4B62CAB76474E28BABA6220 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/weather.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = weather.h; path = src/weather.h; sourceTree = SOURCE_ROOT; };
-		D6908A6DF70B40B7B95BDDC6 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/prioqueue.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = prioqueue.h; path = src/prioqueue.h; sourceTree = SOURCE_ROOT; };
-		D76F4DEE349B4001895C7C30 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/mail.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mail.h; path = src/mail.h; sourceTree = SOURCE_ROOT; };
-		DA28F8D312B247F3AAA762AA /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/setting.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = setting.cc; path = src/setting.cc; sourceTree = SOURCE_ROOT; };
-		DC87991F968F4238B873E928 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/exec.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = exec.cc; path = src/exec.cc; sourceTree = SOURCE_ROOT; };
-		DCCA3EB9C6E34E169CDA2AC8 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/cmus.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cmus.cc; path = src/cmus.cc; sourceTree = SOURCE_ROOT; };
-		DDFDAAB6DC8C4619890E7ABF /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/x11.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = x11.h; path = src/x11.h; sourceTree = SOURCE_ROOT; };
-		DFF0CDEB3174438B83825705 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/proc.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = proc.cc; path = src/proc.cc; sourceTree = SOURCE_ROOT; };
-		E0559DD46D574364A4E89028 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/data/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = data/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		E3B8CE0CD60645ADAC39FB30 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/temphelper.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = temphelper.cc; path = src/temphelper.cc; sourceTree = SOURCE_ROOT; };
-		EAEEBB7FE9D648FBB810BC3A /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/tailhead.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tailhead.h; path = src/tailhead.h; sourceTree = SOURCE_ROOT; };
-		ECC5FC1D6B114589B66E4E6C /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/ccurl_thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ccurl_thread.h; path = src/ccurl_thread.h; sourceTree = SOURCE_ROOT; };
-		EFF403AC44A747C080EE4042 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/colours.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = colours.h; path = src/colours.h; sourceTree = SOURCE_ROOT; };
-		F00423A82C894C33B5F90661 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/x11.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = x11.cc; path = src/x11.cc; sourceTree = SOURCE_ROOT; };
-		F059D4EE7B594ED7AB902570 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/luamm.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = luamm.hh; path = src/luamm.hh; sourceTree = SOURCE_ROOT; };
-		F5A353CB4F94404FBD13FD3B /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/text_object.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = text_object.h; path = src/text_object.h; sourceTree = SOURCE_ROOT; };
-		F78C86FE4D97432689649A70 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/build.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = build.h; path = forConkyX/build.h; sourceTree = SOURCE_ROOT; };
-		FA95237EC5304AFB880F67AA /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/ccurl_thread.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ccurl_thread.cc; path = src/ccurl_thread.cc; sourceTree = SOURCE_ROOT; };
+		53925A9BDCC5465C9FB1710A /* lua-config.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "lua-config.cc"; path = "src/lua-config.cc"; sourceTree = SOURCE_ROOT; };
+		5A281DB92CE24616AFB69EA3 /* luamm.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = luamm.cc; path = src/luamm.cc; sourceTree = SOURCE_ROOT; };
+		5A65F22B2F684ED6B8CBA3AB /* diskio.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = diskio.cc; path = src/diskio.cc; sourceTree = SOURCE_ROOT; };
+		5B02510356AC40CDB3B0F326 /* algebra.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = algebra.cc; path = src/algebra.cc; sourceTree = SOURCE_ROOT; };
+		5ED81464021E474AA6E5E6AC /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5F6F4C7273E54B03B5DD9CEF /* imlib2.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imlib2.cc; path = src/imlib2.cc; sourceTree = SOURCE_ROOT; };
+		652F2F9440654F8795203D56 /* timeinfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = timeinfo.h; path = src/timeinfo.h; sourceTree = SOURCE_ROOT; };
+		69EE460FE0554FEA8135B56B /* mboxscan.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mboxscan.h; path = src/mboxscan.h; sourceTree = SOURCE_ROOT; };
+		6A1706C1DCB147419103270A /* c++wrap.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = "c++wrap.hh"; path = "src/c++wrap.hh"; sourceTree = SOURCE_ROOT; };
+		71DAF6B8C45647919CF3B9A5 /* apcupsd.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = apcupsd.h; path = src/apcupsd.h; sourceTree = SOURCE_ROOT; };
+		784F7B0948E54DC2B7EA1F83 /* llua.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = llua.cc; path = src/llua.cc; sourceTree = SOURCE_ROOT; };
+		7BF1A98A40A4485281300770 /* colours.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = colours.cc; path = src/colours.cc; sourceTree = SOURCE_ROOT; };
+		7C56DD5A14D14EF4B97F23A9 /* config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = config.h; path = forConkyX/config.h; sourceTree = SOURCE_ROOT; };
+		7EDAB6B8B16E4E81953126B4 /* net_stat.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = net_stat.cc; path = src/net_stat.cc; sourceTree = SOURCE_ROOT; };
+		8082DEC807CD46C28345294C /* entropy.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = entropy.cc; path = src/entropy.cc; sourceTree = SOURCE_ROOT; };
+		80AF4FA213F74C1D95A50FED /* darwin_sip.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = darwin_sip.h; path = src/darwin_sip.h; sourceTree = SOURCE_ROOT; };
+		886E6980E39E4F2C97130EA0 /* exec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = exec.h; path = src/exec.h; sourceTree = SOURCE_ROOT; };
+		8A632F379FD54E94A5BC0E43 /* weather.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = weather.cc; path = src/weather.cc; sourceTree = SOURCE_ROOT; };
+		8A92F692A292484CBDEFD054 /* template.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = template.cc; path = src/template.cc; sourceTree = SOURCE_ROOT; };
+		8C72D82B46494FF39EA871A0 /* moc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = moc.h; path = src/moc.h; sourceTree = SOURCE_ROOT; };
+		8DED6661065D40FE8964E00A /* net_stat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = net_stat.h; path = src/net_stat.h; sourceTree = SOURCE_ROOT; };
+		8F9B6DB1C6A742EC92FD2C6A /* common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = common.h; path = src/common.h; sourceTree = SOURCE_ROOT; };
+		9076A2203EEB40DB8EF480B4 /* fs.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fs.cc; path = src/fs.cc; sourceTree = SOURCE_ROOT; };
+		921AC83A66A24202B11E26E9 /* moc.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moc.cc; path = src/moc.cc; sourceTree = SOURCE_ROOT; };
+		935FB233B22E404DB438759B /* user.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = user.cc; path = src/user.cc; sourceTree = SOURCE_ROOT; };
+		943BBEFAF3E04CDDBD4586AF /* libmpdclient.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = libmpdclient.cc; path = src/libmpdclient.cc; sourceTree = SOURCE_ROOT; };
+		99731A4837D94FFBAB2AF3FF /* combine.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = combine.h; path = src/combine.h; sourceTree = SOURCE_ROOT; };
+		9A8B1EAE102E4D538D262043 /* update-cb.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = "update-cb.hh"; path = "src/update-cb.hh"; sourceTree = SOURCE_ROOT; };
+		9AFF746BAEDD4CF89C64F053 /* i18n.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = i18n.h; path = src/i18n.h; sourceTree = SOURCE_ROOT; };
+		9FC0238FDB204A178AA95400 /* c++wrap.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "c++wrap.cc"; path = "src/c++wrap.cc"; sourceTree = SOURCE_ROOT; };
+		A066E78E3D2040729DAF1F2F /* cmus.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cmus.h; path = src/cmus.h; sourceTree = SOURCE_ROOT; };
+		A5C75CD1393143D4A26666BB /* fs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fs.h; path = src/fs.h; sourceTree = SOURCE_ROOT; };
+		A6BB2AA607C146398FF7CE68 /* mpd.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mpd.cc; path = src/mpd.cc; sourceTree = SOURCE_ROOT; };
+		A9946BA8F04E4E5BBDA845AD /* mpd.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mpd.h; path = src/mpd.h; sourceTree = SOURCE_ROOT; };
+		AC4D01949C3043BAA6A62307 /* template.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = template.h; path = src/template.h; sourceTree = SOURCE_ROOT; };
+		AE733589C45F408AB9BDB55B /* conky.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = conky.cc; path = src/conky.cc; sourceTree = SOURCE_ROOT; };
+		B48BC4BE76DF42E9A17CEA8D /* read_tcpip.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = read_tcpip.cc; path = src/read_tcpip.cc; sourceTree = SOURCE_ROOT; };
+		B7E1A76BC4E44DFDBC24AEE3 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BB2C1C9D01834C5F89832FF1 /* specials.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = specials.h; path = src/specials.h; sourceTree = SOURCE_ROOT; };
+		BB4EAE1146744FB3A8BCD6AB /* scroll.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = scroll.h; path = src/scroll.h; sourceTree = SOURCE_ROOT; };
+		BD6B5F96EC5D4D97ABDA86A2 /* eve.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = eve.cc; path = src/eve.cc; sourceTree = SOURCE_ROOT; };
+		BE435082627D4292912C7063 /* fonts.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fonts.h; path = src/fonts.h; sourceTree = SOURCE_ROOT; };
+		BEC30BBEC5F94A3AB40B7FCC /* proc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = proc.h; path = src/proc.h; sourceTree = SOURCE_ROOT; };
+		C22CDE9E73BB48EA9324A7EC /* logging.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = logging.h; path = src/logging.h; sourceTree = SOURCE_ROOT; };
+		C2408726A3A540BBADC3F92D /* entropy.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = entropy.h; path = src/entropy.h; sourceTree = SOURCE_ROOT; };
+		C2FDE6B9D9F644378B7B6356 /* data-source.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = "data-source.hh"; path = "src/data-source.hh"; sourceTree = SOURCE_ROOT; };
+		C3B88443A30E4BE5909DFD58 /* text_object.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = text_object.cc; path = src/text_object.cc; sourceTree = SOURCE_ROOT; };
+		C3C183F014B5414994DC3C48 /* llua.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = llua.h; path = src/llua.h; sourceTree = SOURCE_ROOT; };
+		C4687A42AD0945C2AA27440A /* user.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = user.h; path = src/user.h; sourceTree = SOURCE_ROOT; };
+		C5E8C180227B425F92EE38FA /* timeinfo.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = timeinfo.cc; path = src/timeinfo.cc; sourceTree = SOURCE_ROOT; };
+		CEA06B635C0745CB94933247 /* diskio.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = diskio.h; path = src/diskio.h; sourceTree = SOURCE_ROOT; };
+		D2FB70B788D14B7387EED1FE /* apcupsd.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = apcupsd.cc; path = src/apcupsd.cc; sourceTree = SOURCE_ROOT; };
+		D3D8506F7C1B4F999626E8D0 /* temphelper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = temphelper.h; path = src/temphelper.h; sourceTree = SOURCE_ROOT; };
+		D4B62CAB76474E28BABA6220 /* weather.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = weather.h; path = src/weather.h; sourceTree = SOURCE_ROOT; };
+		D6908A6DF70B40B7B95BDDC6 /* prioqueue.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = prioqueue.h; path = src/prioqueue.h; sourceTree = SOURCE_ROOT; };
+		D76F4DEE349B4001895C7C30 /* mail.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mail.h; path = src/mail.h; sourceTree = SOURCE_ROOT; };
+		DA28F8D312B247F3AAA762AA /* setting.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = setting.cc; path = src/setting.cc; sourceTree = SOURCE_ROOT; };
+		DC87991F968F4238B873E928 /* exec.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = exec.cc; path = src/exec.cc; sourceTree = SOURCE_ROOT; };
+		DCCA3EB9C6E34E169CDA2AC8 /* cmus.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cmus.cc; path = src/cmus.cc; sourceTree = SOURCE_ROOT; };
+		DDFDAAB6DC8C4619890E7ABF /* x11.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = x11.h; path = src/x11.h; sourceTree = SOURCE_ROOT; };
+		DFF0CDEB3174438B83825705 /* proc.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = proc.cc; path = src/proc.cc; sourceTree = SOURCE_ROOT; };
+		E0559DD46D574364A4E89028 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = data/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E3B8CE0CD60645ADAC39FB30 /* temphelper.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = temphelper.cc; path = src/temphelper.cc; sourceTree = SOURCE_ROOT; };
+		EAEEBB7FE9D648FBB810BC3A /* tailhead.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tailhead.h; path = src/tailhead.h; sourceTree = SOURCE_ROOT; };
+		ECC5FC1D6B114589B66E4E6C /* ccurl_thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ccurl_thread.h; path = src/ccurl_thread.h; sourceTree = SOURCE_ROOT; };
+		EFF403AC44A747C080EE4042 /* colours.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = colours.h; path = src/colours.h; sourceTree = SOURCE_ROOT; };
+		F00423A82C894C33B5F90661 /* x11.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = x11.cc; path = src/x11.cc; sourceTree = SOURCE_ROOT; };
+		F059D4EE7B594ED7AB902570 /* luamm.hh */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = luamm.hh; path = src/luamm.hh; sourceTree = SOURCE_ROOT; };
+		F5A353CB4F94404FBD13FD3B /* text_object.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = text_object.h; path = src/text_object.h; sourceTree = SOURCE_ROOT; };
+		F78C86FE4D97432689649A70 /* build.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = build.h; path = forConkyX/build.h; sourceTree = SOURCE_ROOT; };
+		FA95237EC5304AFB880F67AA /* ccurl_thread.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ccurl_thread.cc; path = src/ccurl_thread.cc; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -408,7 +323,7 @@
 			isa = PBXGroup;
 			children = (
 				2C5773481F8F43CDB7E6C22C /* CMake Rules */,
-				0850E52B631A49B38C1A419C /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/data/CMakeLists.txt */,
+				0850E52B631A49B38C1A419C /* CMakeLists.txt */,
 			);
 			name = convertconf;
 			sourceTree = "<group>";
@@ -430,53 +345,53 @@
 		7796D7C5533A4F1393AC9FCB /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				5B02510356AC40CDB3B0F326 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/algebra.cc */,
-				D2FB70B788D14B7387EED1FE /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/apcupsd.cc */,
-				9FC0238FDB204A178AA95400 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/c++wrap.cc */,
-				FA95237EC5304AFB880F67AA /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/ccurl_thread.cc */,
-				DCCA3EB9C6E34E169CDA2AC8 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/cmus.cc */,
-				7BF1A98A40A4485281300770 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/colours.cc */,
-				0EF2DA2D40ED4EA2BF8F8A8F /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/combine.cc */,
-				33225A47CBB94DAF928FF6E1 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/common.cc */,
-				AE733589C45F408AB9BDB55B /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/conky.cc */,
-				4B098C465CB94D68BF4A2381 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/core.cc */,
-				3E04FC3B1A9A419992BEBAC7 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/cpu.cc */,
-				1EAEA7CBD6604075B5A653DD /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/darwin.mm */,
-				470445FC865E42A89D14C194 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/data-source.cc */,
-				5A65F22B2F684ED6B8CBA3AB /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/diskio.cc */,
-				8082DEC807CD46C28345294C /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/entropy.cc */,
-				BD6B5F96EC5D4D97ABDA86A2 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/eve.cc */,
-				DC87991F968F4238B873E928 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/exec.cc */,
-				4077B7141DDD40BDAAE7E0EF /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/fonts.cc */,
-				9076A2203EEB40DB8EF480B4 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/fs.cc */,
-				5F6F4C7273E54B03B5DD9CEF /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/imlib2.cc */,
-				943BBEFAF3E04CDDBD4586AF /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/libmpdclient.cc */,
-				784F7B0948E54DC2B7EA1F83 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/llua.cc */,
-				53925A9BDCC5465C9FB1710A /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/lua-config.cc */,
-				5A281DB92CE24616AFB69EA3 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/luamm.cc */,
-				40217D9EDC0A4E00B82BA59F /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/mail.cc */,
-				070ECBD6E4E64EEBBE4B46D0 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/mboxscan.cc */,
-				02F72FE7841A4668870AF592 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/misc.cc */,
-				921AC83A66A24202B11E26E9 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/moc.cc */,
-				A6BB2AA607C146398FF7CE68 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/mpd.cc */,
-				09E415F4F9D74A24BFB6C768 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/nc.cc */,
-				7EDAB6B8B16E4E81953126B4 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/net_stat.cc */,
-				1900C391660F46B5B4236022 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/prioqueue.cc */,
-				DFF0CDEB3174438B83825705 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/proc.cc */,
-				B48BC4BE76DF42E9A17CEA8D /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/read_tcpip.cc */,
-				3C09715ED37C4075AC946E1D /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/scroll.cc */,
-				DA28F8D312B247F3AAA762AA /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/setting.cc */,
-				19021ABA80F047B8B3858751 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/specials.cc */,
-				37B3BB4374454676AB896F47 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/tailhead.cc */,
-				E3B8CE0CD60645ADAC39FB30 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/temphelper.cc */,
-				8A92F692A292484CBDEFD054 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/template.cc */,
-				C3B88443A30E4BE5909DFD58 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/text_object.cc */,
-				C5E8C180227B425F92EE38FA /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/timeinfo.cc */,
-				0FD0F2F54ACC47DE956CADE7 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/top.cc */,
-				06B01D43858C4B69AEF2768C /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/update-cb.cc */,
-				935FB233B22E404DB438759B /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/user.cc */,
-				8A632F379FD54E94A5BC0E43 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/weather.cc */,
-				F00423A82C894C33B5F90661 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/x11.cc */,
+				5B02510356AC40CDB3B0F326 /* algebra.cc */,
+				D2FB70B788D14B7387EED1FE /* apcupsd.cc */,
+				9FC0238FDB204A178AA95400 /* c++wrap.cc */,
+				FA95237EC5304AFB880F67AA /* ccurl_thread.cc */,
+				DCCA3EB9C6E34E169CDA2AC8 /* cmus.cc */,
+				7BF1A98A40A4485281300770 /* colours.cc */,
+				0EF2DA2D40ED4EA2BF8F8A8F /* combine.cc */,
+				33225A47CBB94DAF928FF6E1 /* common.cc */,
+				AE733589C45F408AB9BDB55B /* conky.cc */,
+				4B098C465CB94D68BF4A2381 /* core.cc */,
+				3E04FC3B1A9A419992BEBAC7 /* cpu.cc */,
+				1EAEA7CBD6604075B5A653DD /* darwin.mm */,
+				470445FC865E42A89D14C194 /* data-source.cc */,
+				5A65F22B2F684ED6B8CBA3AB /* diskio.cc */,
+				8082DEC807CD46C28345294C /* entropy.cc */,
+				BD6B5F96EC5D4D97ABDA86A2 /* eve.cc */,
+				DC87991F968F4238B873E928 /* exec.cc */,
+				4077B7141DDD40BDAAE7E0EF /* fonts.cc */,
+				9076A2203EEB40DB8EF480B4 /* fs.cc */,
+				5F6F4C7273E54B03B5DD9CEF /* imlib2.cc */,
+				943BBEFAF3E04CDDBD4586AF /* libmpdclient.cc */,
+				784F7B0948E54DC2B7EA1F83 /* llua.cc */,
+				53925A9BDCC5465C9FB1710A /* lua-config.cc */,
+				5A281DB92CE24616AFB69EA3 /* luamm.cc */,
+				40217D9EDC0A4E00B82BA59F /* mail.cc */,
+				070ECBD6E4E64EEBBE4B46D0 /* mboxscan.cc */,
+				02F72FE7841A4668870AF592 /* misc.cc */,
+				921AC83A66A24202B11E26E9 /* moc.cc */,
+				A6BB2AA607C146398FF7CE68 /* mpd.cc */,
+				09E415F4F9D74A24BFB6C768 /* nc.cc */,
+				7EDAB6B8B16E4E81953126B4 /* net_stat.cc */,
+				1900C391660F46B5B4236022 /* prioqueue.cc */,
+				DFF0CDEB3174438B83825705 /* proc.cc */,
+				B48BC4BE76DF42E9A17CEA8D /* read_tcpip.cc */,
+				3C09715ED37C4075AC946E1D /* scroll.cc */,
+				DA28F8D312B247F3AAA762AA /* setting.cc */,
+				19021ABA80F047B8B3858751 /* specials.cc */,
+				37B3BB4374454676AB896F47 /* tailhead.cc */,
+				E3B8CE0CD60645ADAC39FB30 /* temphelper.cc */,
+				8A92F692A292484CBDEFD054 /* template.cc */,
+				C3B88443A30E4BE5909DFD58 /* text_object.cc */,
+				C5E8C180227B425F92EE38FA /* timeinfo.cc */,
+				0FD0F2F54ACC47DE956CADE7 /* top.cc */,
+				06B01D43858C4B69AEF2768C /* update-cb.cc */,
+				935FB233B22E404DB438759B /* user.cc */,
+				8A632F379FD54E94A5BC0E43 /* weather.cc */,
+				F00423A82C894C33B5F90661 /* x11.cc */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -492,59 +407,59 @@
 		824159FE16764B9AB083175B /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
-				F78C86FE4D97432689649A70 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/build.h */,
-				7C56DD5A14D14EF4B97F23A9 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/config.h */,
-				145C766D984942C49F19FCA2 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/algebra.h */,
-				71DAF6B8C45647919CF3B9A5 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/apcupsd.h */,
-				6A1706C1DCB147419103270A /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/c++wrap.hh */,
-				ECC5FC1D6B114589B66E4E6C /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/ccurl_thread.h */,
-				A066E78E3D2040729DAF1F2F /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/cmus.h */,
-				EFF403AC44A747C080EE4042 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/colours.h */,
-				99731A4837D94FFBAB2AF3FF /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/combine.h */,
-				8F9B6DB1C6A742EC92FD2C6A /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/common.h */,
-				332C98B266464FC9B8CF5BCB /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/conky.h */,
-				0AAFBAB28DA0452D85ACD1E3 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/core.h */,
-				22663E63729E456AB64D452E /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/cpu.h */,
-				249F5614C17742C69E17F988 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/darwin.h */,
-				80AF4FA213F74C1D95A50FED /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/darwin_sip.h */,
-				C2FDE6B9D9F644378B7B6356 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/data-source.hh */,
-				CEA06B635C0745CB94933247 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/diskio.h */,
-				C2408726A3A540BBADC3F92D /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/entropy.h */,
-				2B6D58A7E1C54902B88C3CF3 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/eve.h */,
-				886E6980E39E4F2C97130EA0 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/exec.h */,
-				BE435082627D4292912C7063 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/fonts.h */,
-				A5C75CD1393143D4A26666BB /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/fs.h */,
-				9AFF746BAEDD4CF89C64F053 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/i18n.h */,
-				16FDF9B2C8444264882651B7 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/imlib2.h */,
-				19BB660C2C9E430FB91BF8BC /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/libmpdclient.h */,
-				C3C183F014B5414994DC3C48 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/llua.h */,
-				C22CDE9E73BB48EA9324A7EC /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/logging.h */,
-				0F0FD5025E1348F3B2B851FC /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/lua-config.hh */,
-				F059D4EE7B594ED7AB902570 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/luamm.hh */,
-				D76F4DEE349B4001895C7C30 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/mail.h */,
-				69EE460FE0554FEA8135B56B /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/mboxscan.h */,
-				314898C407BF4ADD948AFB20 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/misc.h */,
-				8C72D82B46494FF39EA871A0 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/moc.h */,
-				A9946BA8F04E4E5BBDA845AD /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/mpd.h */,
-				47045A36505A4152BF9B514A /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/nc.h */,
-				8DED6661065D40FE8964E00A /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/net_stat.h */,
-				D6908A6DF70B40B7B95BDDC6 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/prioqueue.h */,
-				BEC30BBEC5F94A3AB40B7FCC /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/proc.h */,
-				4F405F3F1F6C4FF8910A7076 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/read_tcpip.h */,
-				BB4EAE1146744FB3A8BCD6AB /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/scroll.h */,
-				0EBA8A5235A44D71B69A2266 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/semaphore.hh */,
-				4BBC652E3E474F6FAE7B1600 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/setting.hh */,
-				BB2C1C9D01834C5F89832FF1 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/specials.h */,
-				EAEEBB7FE9D648FBB810BC3A /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/tailhead.h */,
-				D3D8506F7C1B4F999626E8D0 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/temphelper.h */,
-				AC4D01949C3043BAA6A62307 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/template.h */,
-				F5A353CB4F94404FBD13FD3B /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/text_object.h */,
-				652F2F9440654F8795203D56 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/timeinfo.h */,
-				1AF6AF66313A4D0DBD82EC37 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/top.h */,
-				9A8B1EAE102E4D538D262043 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/update-cb.hh */,
-				C4687A42AD0945C2AA27440A /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/user.h */,
-				D4B62CAB76474E28BABA6220 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/weather.h */,
-				DDFDAAB6DC8C4619890E7ABF /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/x11.h */,
+				F78C86FE4D97432689649A70 /* build.h */,
+				7C56DD5A14D14EF4B97F23A9 /* config.h */,
+				145C766D984942C49F19FCA2 /* algebra.h */,
+				71DAF6B8C45647919CF3B9A5 /* apcupsd.h */,
+				6A1706C1DCB147419103270A /* c++wrap.hh */,
+				ECC5FC1D6B114589B66E4E6C /* ccurl_thread.h */,
+				A066E78E3D2040729DAF1F2F /* cmus.h */,
+				EFF403AC44A747C080EE4042 /* colours.h */,
+				99731A4837D94FFBAB2AF3FF /* combine.h */,
+				8F9B6DB1C6A742EC92FD2C6A /* common.h */,
+				332C98B266464FC9B8CF5BCB /* conky.h */,
+				0AAFBAB28DA0452D85ACD1E3 /* core.h */,
+				22663E63729E456AB64D452E /* cpu.h */,
+				249F5614C17742C69E17F988 /* darwin.h */,
+				80AF4FA213F74C1D95A50FED /* darwin_sip.h */,
+				C2FDE6B9D9F644378B7B6356 /* data-source.hh */,
+				CEA06B635C0745CB94933247 /* diskio.h */,
+				C2408726A3A540BBADC3F92D /* entropy.h */,
+				2B6D58A7E1C54902B88C3CF3 /* eve.h */,
+				886E6980E39E4F2C97130EA0 /* exec.h */,
+				BE435082627D4292912C7063 /* fonts.h */,
+				A5C75CD1393143D4A26666BB /* fs.h */,
+				9AFF746BAEDD4CF89C64F053 /* i18n.h */,
+				16FDF9B2C8444264882651B7 /* imlib2.h */,
+				19BB660C2C9E430FB91BF8BC /* libmpdclient.h */,
+				C3C183F014B5414994DC3C48 /* llua.h */,
+				C22CDE9E73BB48EA9324A7EC /* logging.h */,
+				0F0FD5025E1348F3B2B851FC /* lua-config.hh */,
+				F059D4EE7B594ED7AB902570 /* luamm.hh */,
+				D76F4DEE349B4001895C7C30 /* mail.h */,
+				69EE460FE0554FEA8135B56B /* mboxscan.h */,
+				314898C407BF4ADD948AFB20 /* misc.h */,
+				8C72D82B46494FF39EA871A0 /* moc.h */,
+				A9946BA8F04E4E5BBDA845AD /* mpd.h */,
+				47045A36505A4152BF9B514A /* nc.h */,
+				8DED6661065D40FE8964E00A /* net_stat.h */,
+				D6908A6DF70B40B7B95BDDC6 /* prioqueue.h */,
+				BEC30BBEC5F94A3AB40B7FCC /* proc.h */,
+				4F405F3F1F6C4FF8910A7076 /* read_tcpip.h */,
+				BB4EAE1146744FB3A8BCD6AB /* scroll.h */,
+				0EBA8A5235A44D71B69A2266 /* semaphore.hh */,
+				4BBC652E3E474F6FAE7B1600 /* setting.hh */,
+				BB2C1C9D01834C5F89832FF1 /* specials.h */,
+				EAEEBB7FE9D648FBB810BC3A /* tailhead.h */,
+				D3D8506F7C1B4F999626E8D0 /* temphelper.h */,
+				AC4D01949C3043BAA6A62307 /* template.h */,
+				F5A353CB4F94404FBD13FD3B /* text_object.h */,
+				652F2F9440654F8795203D56 /* timeinfo.h */,
+				1AF6AF66313A4D0DBD82EC37 /* top.h */,
+				9A8B1EAE102E4D538D262043 /* update-cb.hh */,
+				C4687A42AD0945C2AA27440A /* user.h */,
+				D4B62CAB76474E28BABA6220 /* weather.h */,
+				DDFDAAB6DC8C4619890E7ABF /* x11.h */,
 			);
 			name = "Header Files";
 			sourceTree = "<group>";
@@ -553,7 +468,7 @@
 			isa = PBXGroup;
 			children = (
 				383F0A06E50D41F0BF22A70B /* CMake Rules */,
-				B7E1A76BC4E44DFDBC24AEE3 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/CMakeLists.txt */,
+				B7E1A76BC4E44DFDBC24AEE3 /* CMakeLists.txt */,
 			);
 			name = ALL_BUILD;
 			sourceTree = "<group>";
@@ -563,7 +478,7 @@
 			children = (
 				824159FE16764B9AB083175B /* Header Files */,
 				7796D7C5533A4F1393AC9FCB /* Source Files */,
-				5ED81464021E474AA6E5E6AC /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/CMakeLists.txt */,
+				5ED81464021E474AA6E5E6AC /* CMakeLists.txt */,
 			);
 			name = conky;
 			sourceTree = "<group>";
@@ -572,7 +487,7 @@
 			isa = PBXGroup;
 			children = (
 				E0E8AC7CBA30413C9A4B2319 /* CMake Rules */,
-				E0559DD46D574364A4E89028 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/data/CMakeLists.txt */,
+				E0559DD46D574364A4E89028 /* CMakeLists.txt */,
 			);
 			name = defconfig;
 			sourceTree = "<group>";
@@ -613,16 +528,12 @@
 				LastUpgradeCheck = 0940;
 			};
 			buildConfigurationList = DBD24B5DC19248EFA06BC09B /* Build configuration list for PBXProject "conky" */;
-			buildSettings = {
-			};
-			buildStyles = (
-				6F44820623E041A98100BA89 /* Debug */,
-				87551AA8AA1447D09F0B2129 /* Release */,
-				2C050DF4239C46B1899790D8 /* MinSizeRel */,
-				40E40859121B420F810B27C8 /* RelWithDebInfo */,
-			);
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 00E49E0DF4D34BB88C5EDBD1;
 			projectDirPath = ../;
 			projectRoot = "";
@@ -672,21 +583,6 @@
 			shellScript = "make -C /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX -f /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
-		4752EEC5085948ECAFB0B712 = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
 		5485C1AE9D51474DB9204E4A /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -698,51 +594,6 @@ exit 0";
 			shellScript = "make -C /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX -f /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
-		59CEF8DDD9594E1D832CF9C7 = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
-		7356A72B057145BB839C4A94 = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
-		8E6AD1D769914C20833E98C7 = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
 		A63D5FBAC45E41E48B621A35 /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -752,36 +603,6 @@ exit 0";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "make -C /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX -f /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
-		B2060A7FBE854D13BCDF70AB = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
-		C7DE3E18358845B98693AE8E = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
 			showEnvVarsInLog = 0;
 		};
 		F112BFF76F80465D86CE0B9B /* CMake Rules */ = {
@@ -802,53 +623,53 @@ exit 0";
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				871A4D978FBB42D7A4031A33 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/algebra.cc */,
-				3026DC91FFB14DF6AB904B3C /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/apcupsd.cc */,
-				0B16F5B36A824BC2B7F84D41 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/c++wrap.cc */,
-				986A0BA370DE455EB703C4E4 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/ccurl_thread.cc */,
-				BE00FC796717422AB9B18F91 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/cmus.cc */,
-				A2F689393203489E9A994F96 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/colours.cc */,
-				601FF6EE3AFA494AB34B5E42 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/combine.cc */,
-				96F316F93E5D44E88A21D145 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/common.cc */,
-				01BE42D72D7C4624890835E2 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/conky.cc */,
-				C4024A88F34448C399123251 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/core.cc */,
-				9BF776756F944B52AB0CF201 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/cpu.cc */,
-				B696E2A4FE7446CF97A00FBD /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/darwin.mm */,
-				70CA52F92709460AA0DC5052 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/data-source.cc */,
-				C1F7BAC24B2E4B2D9F081E0A /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/diskio.cc */,
-				CBE14A29934143F986742214 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/entropy.cc */,
-				2FD58BC3742D4E1DA0FB6592 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/eve.cc */,
-				53E7E347E9C64EDAB59D8001 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/exec.cc */,
-				ECD4F88151A64B68AC5498A7 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/fonts.cc */,
-				7F0D19DA17BB410CA7B016B4 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/fs.cc */,
-				C57D99B361EB4D0FABD02CEA /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/imlib2.cc */,
-				B70BFBA252A346D292AF7289 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/libmpdclient.cc */,
-				E2FF3184252441D9BC2B1C74 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/llua.cc */,
-				AC32FA6607284723A86C793F /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/lua-config.cc */,
-				5278AE731C54412AA8A5AEBE /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/luamm.cc */,
-				0C44086848FC44BE80CAA8D7 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/mail.cc */,
-				2C8585F64345493F814D006A /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/mboxscan.cc */,
-				AED1800A5FF242B581402A01 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/misc.cc */,
-				3077F688888D4DC4AC0122AB /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/moc.cc */,
-				5837A39872984F239D8E0DFA /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/mpd.cc */,
-				DF09160030EC40709AB46B75 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/nc.cc */,
-				16302455D09847C98FEE9807 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/net_stat.cc */,
-				BC401F4443284653AED83B28 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/prioqueue.cc */,
-				D923F33E8EFA4BD69E5160CC /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/proc.cc */,
-				B6EEC3D55D664B63BE015979 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/read_tcpip.cc */,
-				EF909C266BAE446FBB5EC900 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/scroll.cc */,
-				6FD3C875570A41E99882F939 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/setting.cc */,
-				04B7BFAA2D1C480D95572507 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/specials.cc */,
-				5E64308D58654082B0D355AB /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/tailhead.cc */,
-				F741BA87123F464890837D65 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/temphelper.cc */,
-				E568C5FA370F49A4A1421F59 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/template.cc */,
-				021D121CC3D64DED9AFCD089 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/text_object.cc */,
-				E9AD34A70FC24310A09D66AE /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/timeinfo.cc */,
-				29A29F8B83A545868E5361E1 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/top.cc */,
-				2C2AF9B22FDC4389BFD2AD17 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/update-cb.cc */,
-				6317B5870ED14999A578EDEB /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/user.cc */,
-				DA67D2589D3A4AA0A02C4629 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/weather.cc */,
-				63AC6325D6A641FC910A2F89 /* /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/src/x11.cc */,
+				871A4D978FBB42D7A4031A33 /* algebra.cc in Sources */,
+				3026DC91FFB14DF6AB904B3C /* apcupsd.cc in Sources */,
+				0B16F5B36A824BC2B7F84D41 /* c++wrap.cc in Sources */,
+				986A0BA370DE455EB703C4E4 /* ccurl_thread.cc in Sources */,
+				BE00FC796717422AB9B18F91 /* cmus.cc in Sources */,
+				A2F689393203489E9A994F96 /* colours.cc in Sources */,
+				601FF6EE3AFA494AB34B5E42 /* combine.cc in Sources */,
+				96F316F93E5D44E88A21D145 /* common.cc in Sources */,
+				01BE42D72D7C4624890835E2 /* conky.cc in Sources */,
+				C4024A88F34448C399123251 /* core.cc in Sources */,
+				9BF776756F944B52AB0CF201 /* cpu.cc in Sources */,
+				B696E2A4FE7446CF97A00FBD /* darwin.mm in Sources */,
+				70CA52F92709460AA0DC5052 /* data-source.cc in Sources */,
+				C1F7BAC24B2E4B2D9F081E0A /* diskio.cc in Sources */,
+				CBE14A29934143F986742214 /* entropy.cc in Sources */,
+				2FD58BC3742D4E1DA0FB6592 /* eve.cc in Sources */,
+				53E7E347E9C64EDAB59D8001 /* exec.cc in Sources */,
+				ECD4F88151A64B68AC5498A7 /* fonts.cc in Sources */,
+				7F0D19DA17BB410CA7B016B4 /* fs.cc in Sources */,
+				C57D99B361EB4D0FABD02CEA /* imlib2.cc in Sources */,
+				B70BFBA252A346D292AF7289 /* libmpdclient.cc in Sources */,
+				E2FF3184252441D9BC2B1C74 /* llua.cc in Sources */,
+				AC32FA6607284723A86C793F /* lua-config.cc in Sources */,
+				5278AE731C54412AA8A5AEBE /* luamm.cc in Sources */,
+				0C44086848FC44BE80CAA8D7 /* mail.cc in Sources */,
+				2C8585F64345493F814D006A /* mboxscan.cc in Sources */,
+				AED1800A5FF242B581402A01 /* misc.cc in Sources */,
+				3077F688888D4DC4AC0122AB /* moc.cc in Sources */,
+				5837A39872984F239D8E0DFA /* mpd.cc in Sources */,
+				DF09160030EC40709AB46B75 /* nc.cc in Sources */,
+				16302455D09847C98FEE9807 /* net_stat.cc in Sources */,
+				BC401F4443284653AED83B28 /* prioqueue.cc in Sources */,
+				D923F33E8EFA4BD69E5160CC /* proc.cc in Sources */,
+				B6EEC3D55D664B63BE015979 /* read_tcpip.cc in Sources */,
+				EF909C266BAE446FBB5EC900 /* scroll.cc in Sources */,
+				6FD3C875570A41E99882F939 /* setting.cc in Sources */,
+				04B7BFAA2D1C480D95572507 /* specials.cc in Sources */,
+				5E64308D58654082B0D355AB /* tailhead.cc in Sources */,
+				F741BA87123F464890837D65 /* temphelper.cc in Sources */,
+				E568C5FA370F49A4A1421F59 /* template.cc in Sources */,
+				021D121CC3D64DED9AFCD089 /* text_object.cc in Sources */,
+				E9AD34A70FC24310A09D66AE /* timeinfo.cc in Sources */,
+				29A29F8B83A545868E5361E1 /* top.cc in Sources */,
+				2C2AF9B22FDC4389BFD2AD17 /* update-cb.cc in Sources */,
+				6317B5870ED14999A578EDEB /* user.cc in Sources */,
+				DA67D2589D3A4AA0A02C4629 /* weather.cc in Sources */,
+				63AC6325D6A641FC910A2F89 /* x11.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -910,7 +731,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -919,7 +740,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Debug;
 		};
@@ -930,7 +756,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -939,7 +765,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/data";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = MinSizeRel;
 		};
@@ -952,20 +783,69 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,"/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX",/usr/X11R6/include,/usr/local/include/freetype2,/usr/local/include/lua,/usr/include/libxml2,"/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/data");
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					"/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX",
+					/usr/X11R6/include,
+					/usr/local/include/freetype2,
+					/usr/local/include/lua,
+					/usr/include/libxml2,
+					"/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/data",
+				);
 				INSTALL_PATH = "";
 				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
-				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
-				OTHER_CPLUSPLUSFLAGS = "-std=c++17 -std=c++17      -DNDEBUG '-std=gnu++1z'  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libintl.dylib -lncurses -lm /usr/lib/libcurses.dylib /usr/lib/libform.dylib /usr/X11R6/lib/libSM.dylib /usr/X11R6/lib/libICE.dylib /usr/X11R6/lib/libX11.dylib /usr/X11R6/lib/libXext.dylib /usr/X11R6/lib/libXft.dylib /usr/X11R6/lib/libXext.dylib -llua -lm -L/usr/local/Cellar/imlib2/1.5.1/lib -lImlib2 -lcurl -lxml2 /usr/X11R6/lib/libXinerama.dylib /usr/X11R6/lib/libXft.dylib -llua -lm -lImlib2 -lcurl -lxml2 /usr/X11R6/lib/libXinerama.dylib";
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++17",
+					"-std=c++17",
+					"-DNDEBUG",
+					"'-std=gnu++1z'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/usr/local/lib/libintl.dylib,
+					"-lncurses",
+					"-lm",
+					/usr/lib/libcurses.dylib,
+					/usr/lib/libform.dylib,
+					/usr/X11R6/lib/libSM.dylib,
+					/usr/X11R6/lib/libICE.dylib,
+					/usr/X11R6/lib/libX11.dylib,
+					/usr/X11R6/lib/libXext.dylib,
+					/usr/X11R6/lib/libXft.dylib,
+					/usr/X11R6/lib/libXext.dylib,
+					"-llua",
+					"-lm",
+					"-L/usr/local/Cellar/imlib2/1.5.1/lib",
+					"-lImlib2",
+					"-lcurl",
+					"-lxml2",
+					/usr/X11R6/lib/libXinerama.dylib,
+					/usr/X11R6/lib/libXft.dylib,
+					"-llua",
+					"-lm",
+					"-lImlib2",
+					"-lcurl",
+					"-lxml2",
+					/usr/X11R6/lib/libXinerama.dylib,
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = conky;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/src";
+				SYMROOT = "$(SRCROOT)/conky-for-macOS/forConkyX/src";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
@@ -985,7 +865,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -994,7 +874,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = RelWithDebInfo;
 		};
@@ -1005,7 +890,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -1014,7 +899,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/data";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Debug;
 		};
@@ -1025,7 +915,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -1034,7 +924,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = MinSizeRel;
 		};
@@ -1045,7 +940,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -1054,7 +949,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/data";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Debug;
 		};
@@ -1067,20 +967,69 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,"/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX",/usr/X11R6/include,/usr/local/include/freetype2,/usr/local/include/lua,/usr/include/libxml2,"/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/data");
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					"/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX",
+					/usr/X11R6/include,
+					/usr/local/include/freetype2,
+					/usr/local/include/lua,
+					/usr/include/libxml2,
+					"/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/data",
+				);
 				INSTALL_PATH = "";
 				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
-				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
-				OTHER_CPLUSPLUSFLAGS = "-std=c++17 -std=c++17         -DNDEBUG '-std=gnu++1z'  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libintl.dylib -lncurses -lm /usr/lib/libcurses.dylib /usr/lib/libform.dylib /usr/X11R6/lib/libSM.dylib /usr/X11R6/lib/libICE.dylib /usr/X11R6/lib/libX11.dylib /usr/X11R6/lib/libXext.dylib /usr/X11R6/lib/libXft.dylib /usr/X11R6/lib/libXext.dylib -llua -lm -L/usr/local/Cellar/imlib2/1.5.1/lib -lImlib2 -lcurl -lxml2 /usr/X11R6/lib/libXinerama.dylib /usr/X11R6/lib/libXft.dylib -llua -lm -lImlib2 -lcurl -lxml2 /usr/X11R6/lib/libXinerama.dylib";
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++17",
+					"-std=c++17",
+					"-DNDEBUG",
+					"'-std=gnu++1z'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/usr/local/lib/libintl.dylib,
+					"-lncurses",
+					"-lm",
+					/usr/lib/libcurses.dylib,
+					/usr/lib/libform.dylib,
+					/usr/X11R6/lib/libSM.dylib,
+					/usr/X11R6/lib/libICE.dylib,
+					/usr/X11R6/lib/libX11.dylib,
+					/usr/X11R6/lib/libXext.dylib,
+					/usr/X11R6/lib/libXft.dylib,
+					/usr/X11R6/lib/libXext.dylib,
+					"-llua",
+					"-lm",
+					"-L/usr/local/Cellar/imlib2/1.5.1/lib",
+					"-lImlib2",
+					"-lcurl",
+					"-lxml2",
+					/usr/X11R6/lib/libXinerama.dylib,
+					/usr/X11R6/lib/libXft.dylib,
+					"-llua",
+					"-lm",
+					"-lImlib2",
+					"-lcurl",
+					"-lxml2",
+					/usr/X11R6/lib/libXinerama.dylib,
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = conky;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/src";
+				SYMROOT = "$(SRCROOT)/conky-for-macOS/forConkyX/src";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = RelWithDebInfo;
 		};
@@ -1091,7 +1040,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -1100,7 +1049,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/data";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
@@ -1111,7 +1065,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -1120,7 +1074,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/data";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = RelWithDebInfo;
 		};
@@ -1131,7 +1090,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -1140,7 +1099,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = RelWithDebInfo;
 		};
@@ -1151,7 +1115,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -1160,7 +1124,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = MinSizeRel;
 		};
@@ -1173,20 +1142,69 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,"/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX",/usr/X11R6/include,/usr/local/include/freetype2,/usr/local/include/lua,/usr/include/libxml2,"/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/data");
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					"/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX",
+					/usr/X11R6/include,
+					/usr/local/include/freetype2,
+					/usr/local/include/lua,
+					/usr/include/libxml2,
+					"/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/data",
+				);
 				INSTALL_PATH = "";
 				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
-				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
-				OTHER_CPLUSPLUSFLAGS = "-std=c++17 -std=c++17      -DNDEBUG '-std=gnu++1z'  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libintl.dylib -lncurses -lm /usr/lib/libcurses.dylib /usr/lib/libform.dylib /usr/X11R6/lib/libSM.dylib /usr/X11R6/lib/libICE.dylib /usr/X11R6/lib/libX11.dylib /usr/X11R6/lib/libXext.dylib /usr/X11R6/lib/libXft.dylib /usr/X11R6/lib/libXext.dylib -llua -lm -L/usr/local/Cellar/imlib2/1.5.1/lib -lImlib2 -lcurl -lxml2 /usr/X11R6/lib/libXinerama.dylib /usr/X11R6/lib/libXft.dylib -llua -lm -lImlib2 -lcurl -lxml2 /usr/X11R6/lib/libXinerama.dylib";
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++17",
+					"-std=c++17",
+					"-DNDEBUG",
+					"'-std=gnu++1z'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/usr/local/lib/libintl.dylib,
+					"-lncurses",
+					"-lm",
+					/usr/lib/libcurses.dylib,
+					/usr/lib/libform.dylib,
+					/usr/X11R6/lib/libSM.dylib,
+					/usr/X11R6/lib/libICE.dylib,
+					/usr/X11R6/lib/libX11.dylib,
+					/usr/X11R6/lib/libXext.dylib,
+					/usr/X11R6/lib/libXft.dylib,
+					/usr/X11R6/lib/libXext.dylib,
+					"-llua",
+					"-lm",
+					"-L/usr/local/Cellar/imlib2/1.5.1/lib",
+					"-lImlib2",
+					"-lcurl",
+					"-lxml2",
+					/usr/X11R6/lib/libXinerama.dylib,
+					/usr/X11R6/lib/libXft.dylib,
+					"-llua",
+					"-lm",
+					"-lImlib2",
+					"-lcurl",
+					"-lxml2",
+					/usr/X11R6/lib/libXinerama.dylib,
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = conky;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/src";
+				SYMROOT = "$(SRCROOT)/conky-for-macOS/forConkyX/src";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = MinSizeRel;
 		};
@@ -1199,20 +1217,68 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,"/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX",/usr/X11R6/include,/usr/local/include/freetype2,/usr/local/include/lua,/usr/include/libxml2,"/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/data");
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					"/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX",
+					/usr/X11R6/include,
+					/usr/local/include/freetype2,
+					/usr/local/include/lua,
+					/usr/include/libxml2,
+					"/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/data",
+				);
 				INSTALL_PATH = "";
 				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
-				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
-				OTHER_CPLUSPLUSFLAGS = "-std=c++17 -std=c++17     '-std=gnu++1z'  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libintl.dylib -lncurses -lm /usr/lib/libcurses.dylib /usr/lib/libform.dylib /usr/X11R6/lib/libSM.dylib /usr/X11R6/lib/libICE.dylib /usr/X11R6/lib/libX11.dylib /usr/X11R6/lib/libXext.dylib /usr/X11R6/lib/libXft.dylib /usr/X11R6/lib/libXext.dylib -llua -lm -L/usr/local/Cellar/imlib2/1.5.1/lib -lImlib2 -lcurl -lxml2 /usr/X11R6/lib/libXinerama.dylib /usr/X11R6/lib/libXft.dylib -llua -lm -lImlib2 -lcurl -lxml2 /usr/X11R6/lib/libXinerama.dylib";
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++17",
+					"-std=c++17",
+					"'-std=gnu++1z'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/usr/local/lib/libintl.dylib,
+					"-lncurses",
+					"-lm",
+					/usr/lib/libcurses.dylib,
+					/usr/lib/libform.dylib,
+					/usr/X11R6/lib/libSM.dylib,
+					/usr/X11R6/lib/libICE.dylib,
+					/usr/X11R6/lib/libX11.dylib,
+					/usr/X11R6/lib/libXext.dylib,
+					/usr/X11R6/lib/libXft.dylib,
+					/usr/X11R6/lib/libXext.dylib,
+					"-llua",
+					"-lm",
+					"-L/usr/local/Cellar/imlib2/1.5.1/lib",
+					"-lImlib2",
+					"-lcurl",
+					"-lxml2",
+					/usr/X11R6/lib/libXinerama.dylib,
+					/usr/X11R6/lib/libXft.dylib,
+					"-llua",
+					"-lm",
+					"-lImlib2",
+					"-lcurl",
+					"-lxml2",
+					/usr/X11R6/lib/libXinerama.dylib,
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = conky;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/src";
+				SYMROOT = "$(SRCROOT)/conky-for-macOS/forConkyX/src";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Debug;
 		};
@@ -1232,7 +1298,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -1241,7 +1307,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = RelWithDebInfo;
 		};
@@ -1252,7 +1323,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -1261,7 +1332,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/data";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = RelWithDebInfo;
 		};
@@ -1272,7 +1348,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -1281,7 +1357,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = RelWithDebInfo;
 		};
@@ -1301,7 +1382,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -1310,7 +1391,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
@@ -1321,7 +1407,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -1330,7 +1416,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/data";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = MinSizeRel;
 		};
@@ -1341,7 +1432,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -1350,7 +1441,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
@@ -1361,7 +1457,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -1370,7 +1466,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
@@ -1381,7 +1482,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -1390,7 +1491,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = MinSizeRel;
 		};
@@ -1401,7 +1507,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -1410,7 +1516,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Debug;
 		};
@@ -1430,7 +1541,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -1439,7 +1550,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Debug;
 		};
@@ -1450,7 +1566,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -1459,7 +1575,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/data";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
@@ -1470,7 +1591,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -1479,7 +1600,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
@@ -1490,7 +1616,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -1499,7 +1625,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Debug;
 		};
@@ -1510,7 +1641,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -1519,7 +1650,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = MinSizeRel;
 		};
