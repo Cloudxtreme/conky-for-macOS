@@ -837,9 +837,11 @@
 				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = conky;
+				SDKROOT = macosx;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "$(SYMROOT)";
 				USE_HEADERMAP = NO;
+				VALID_ARCHS = x86_64;
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
@@ -1021,9 +1023,11 @@
 				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = conky;
+				SDKROOT = macosx;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "$(SYMROOT)";
 				USE_HEADERMAP = NO;
+				VALID_ARCHS = x86_64;
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
@@ -1196,9 +1200,11 @@
 				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = conky;
+				SDKROOT = macosx;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "$(SYMROOT)";
 				USE_HEADERMAP = NO;
+				VALID_ARCHS = x86_64;
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
@@ -1270,9 +1276,11 @@
 				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = conky;
+				SDKROOT = macosx;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "$(SYMROOT)";
 				USE_HEADERMAP = NO;
+				VALID_ARCHS = x86_64;
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
