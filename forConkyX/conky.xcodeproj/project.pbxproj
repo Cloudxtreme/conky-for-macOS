@@ -838,7 +838,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = conky;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "$(SRCROOT)/conky-for-macOS/forConkyX/src";
+				SYMROOT = "$(SYMROOT)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -1022,7 +1022,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = conky;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "$(SRCROOT)/conky-for-macOS/forConkyX/src";
+				SYMROOT = "$(SYMROOT)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -1197,7 +1197,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = conky;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "$(SRCROOT)/conky-for-macOS/forConkyX/src";
+				SYMROOT = "$(SYMROOT)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -1271,7 +1271,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = conky;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "$(SRCROOT)/conky-for-macOS/forConkyX/src";
+				SYMROOT = "$(SYMROOT)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
