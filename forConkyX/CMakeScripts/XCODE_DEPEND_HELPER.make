@@ -12,14 +12,14 @@ PostBuild.conky.Debug:
 	/usr/local/lib/libintl.dylib\
 	/usr/lib/libcurses.dylib\
 	/usr/lib/libform.dylib\
-	/usr/X11R6/lib/libSM.dylib\
-	/usr/X11R6/lib/libICE.dylib\
-	/usr/X11R6/lib/libX11.dylib\
-	/usr/X11R6/lib/libXext.dylib\
-	/usr/X11R6/lib/libXft.dylib\
-	/usr/X11R6/lib/libXext.dylib\
+	/opt/X11/lib/libSM.dylib\
+	/opt/X11/lib/libICE.dylib\
+	/opt/X11/lib/libX11.dylib\
+	/opt/X11/lib/libXext.dylib\
+	/opt/X11/lib/libXft.dylib\
+	/opt/X11/lib/libXext.dylib\
 	/usr/X11R6/lib/libXinerama.dylib\
-	/usr/X11R6/lib/libXft.dylib\
+	/opt/X11/lib/libXft.dylib\
 	/usr/X11R6/lib/libXinerama.dylib
 	/bin/rm -f /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/src/Debug/conky
 
@@ -29,14 +29,14 @@ PostBuild.conky.Release:
 	/usr/local/lib/libintl.dylib\
 	/usr/lib/libcurses.dylib\
 	/usr/lib/libform.dylib\
-	/usr/X11R6/lib/libSM.dylib\
-	/usr/X11R6/lib/libICE.dylib\
-	/usr/X11R6/lib/libX11.dylib\
-	/usr/X11R6/lib/libXext.dylib\
-	/usr/X11R6/lib/libXft.dylib\
-	/usr/X11R6/lib/libXext.dylib\
+	/opt/X11/lib/libSM.dylib\
+	/opt/X11/lib/libICE.dylib\
+	/opt/X11/lib/libX11.dylib\
+	/opt/X11/lib/libXext.dylib\
+	/opt/X11/lib/libXft.dylib\
+	/opt/X11/lib/libXext.dylib\
 	/usr/X11R6/lib/libXinerama.dylib\
-	/usr/X11R6/lib/libXft.dylib\
+	/opt/X11/lib/libXft.dylib\
 	/usr/X11R6/lib/libXinerama.dylib
 	/bin/rm -f /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/src/Release/conky
 
@@ -46,14 +46,14 @@ PostBuild.conky.MinSizeRel:
 	/usr/local/lib/libintl.dylib\
 	/usr/lib/libcurses.dylib\
 	/usr/lib/libform.dylib\
-	/usr/X11R6/lib/libSM.dylib\
-	/usr/X11R6/lib/libICE.dylib\
-	/usr/X11R6/lib/libX11.dylib\
-	/usr/X11R6/lib/libXext.dylib\
-	/usr/X11R6/lib/libXft.dylib\
-	/usr/X11R6/lib/libXext.dylib\
+	/opt/X11/lib/libSM.dylib\
+	/opt/X11/lib/libICE.dylib\
+	/opt/X11/lib/libX11.dylib\
+	/opt/X11/lib/libXext.dylib\
+	/opt/X11/lib/libXft.dylib\
+	/opt/X11/lib/libXext.dylib\
 	/usr/X11R6/lib/libXinerama.dylib\
-	/usr/X11R6/lib/libXft.dylib\
+	/opt/X11/lib/libXft.dylib\
 	/usr/X11R6/lib/libXinerama.dylib
 	/bin/rm -f /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/src/MinSizeRel/conky
 
@@ -63,14 +63,14 @@ PostBuild.conky.RelWithDebInfo:
 	/usr/local/lib/libintl.dylib\
 	/usr/lib/libcurses.dylib\
 	/usr/lib/libform.dylib\
-	/usr/X11R6/lib/libSM.dylib\
-	/usr/X11R6/lib/libICE.dylib\
-	/usr/X11R6/lib/libX11.dylib\
-	/usr/X11R6/lib/libXext.dylib\
-	/usr/X11R6/lib/libXft.dylib\
-	/usr/X11R6/lib/libXext.dylib\
+	/opt/X11/lib/libSM.dylib\
+	/opt/X11/lib/libICE.dylib\
+	/opt/X11/lib/libX11.dylib\
+	/opt/X11/lib/libXext.dylib\
+	/opt/X11/lib/libXft.dylib\
+	/opt/X11/lib/libXext.dylib\
 	/usr/X11R6/lib/libXinerama.dylib\
-	/usr/X11R6/lib/libXft.dylib\
+	/opt/X11/lib/libXft.dylib\
 	/usr/X11R6/lib/libXinerama.dylib
 	/bin/rm -f /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/src/RelWithDebInfo/conky
 
@@ -78,11 +78,11 @@ PostBuild.conky.RelWithDebInfo:
 
 
 # For each target create a dummy ruleso the target does not have to exist
-/usr/X11R6/lib/libICE.dylib:
-/usr/X11R6/lib/libSM.dylib:
-/usr/X11R6/lib/libX11.dylib:
-/usr/X11R6/lib/libXext.dylib:
-/usr/X11R6/lib/libXft.dylib:
+/opt/X11/lib/libICE.dylib:
+/opt/X11/lib/libSM.dylib:
+/opt/X11/lib/libX11.dylib:
+/opt/X11/lib/libXext.dylib:
+/opt/X11/lib/libXft.dylib:
 /usr/X11R6/lib/libXinerama.dylib:
 /usr/lib/libcurses.dylib:
 /usr/lib/libform.dylib:
