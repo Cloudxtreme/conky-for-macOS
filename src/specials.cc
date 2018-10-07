@@ -40,6 +40,8 @@
 #include "colours.h"
 #include <algorithm>
 #include <sstream>
+#include "common.h"
+#include "conky.h"
 
 struct special_t *specials = nullptr;
 
@@ -421,7 +423,8 @@ void new_gauge(struct text_object *obj, char *p, unsigned int p_max_size, double
 #ifdef BUILD_X11
   if (out_to_x.get(*state)) {
     new_gauge_in_x11(obj, p, usage);
-  } else {
+  }
+  if (out_to_stdout.get(*state)) {
     new_gauge_in_shell(obj, p, p_max_size, usage);
   }
 #else /* BUILD_X11 */
@@ -590,7 +593,7 @@ void new_graph(struct text_object *obj, char *buf, int buf_max_size,
 #endif
   graph_append(s, val, g->flags);
 
-  if (not out_to_x.get(*state)) {
+  if (out_to_stdout.get(*state)) {
     new_graph_in_shell(s, buf, buf_max_size);
   }
 }
@@ -697,11 +700,11 @@ static void new_bar_in_shell(struct text_object *obj, char *buffer,
   scaledusage = round_to_int(usage * width / b->scale);
 
   for (i = 0; i < scaledusage; i++) {
-    buffer[i] = '#';
+    buffer[i] = *(bar_fill.get(*state).c_str());
   }
 
   for (; i < width; i++) {
-    buffer[i] = '_';
+    buffer[i] = *(bar_unfill.get(*state).c_str());
   }
 
   buffer[i] = 0;
@@ -746,7 +749,8 @@ void new_bar(struct text_object *obj, char *p, unsigned int p_max_size, double u
 #ifdef BUILD_X11
   if (out_to_x.get(*state)) {
     new_bar_in_x11(obj, p, usage);
-  } else {
+  }
+  if (out_to_stdout.get(*state)) {
     new_bar_in_shell(obj, p, p_max_size, usage);
   }
 #else /* BUILD_X11 */

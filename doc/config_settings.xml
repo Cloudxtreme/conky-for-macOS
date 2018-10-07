@@ -75,6 +75,24 @@
     <varlistentry>
         <term>
             <command>
+                <option>console_bar_fill</option>
+            </command>
+        </term>
+        <listitem>A character to fill the console bars. (default: '#')
+        <para /></listitem>
+    </varlistentry>
+    <varlistentry>
+        <term>
+            <command>
+                <option>console_bar_unfill</option>
+            </command>
+        </term>
+        <listitem>A character to unfill the console bars. (default: '.')
+        <para /></listitem>
+    </varlistentry>
+    <varlistentry>
+        <term>
+            <command>
                 <option>console_graph_ticks</option>
             </command>
         </term>
@@ -323,6 +341,20 @@
         <listitem>Gap, in pixels, between top or bottom border of
         screen, same as passing -y at command line, e.g. gap_y 10.
         For other position related stuff, see 'alignment'.
+        <para /></listitem>
+    </varlistentry>
+    <varlistentry>
+        <term>
+            <command>
+                <option>github_token</option>
+            </command>
+        </term>
+        <listitem>Specify API token for GitHub notifications.
+        <simplelist>
+            <member>
+        https://github.com/settings/tokens/new?scopes=notifications&amp;description=conky
+            </member>
+        </simplelist>
         <para /></listitem>
     </varlistentry>
     <varlistentry>
@@ -766,9 +798,9 @@
             <option>colour</option>
         </term>
         <listitem>If own_window_transparent no, set a specified
-        background colour (defaults to black). Takes either a hex
-        value (e.g. ffffff, note the lack of '#') or a valid RGB
-        name (see /usr/lib/X11/rgb.txt)
+            background colour (defaults to black). Takes either a hex value
+            (e.g. '#ffffff'), a shorthand hex value (e.g. '#fff'), or a valid
+            RGB name (see /usr/lib/X11/rgb.txt)
         <para /></listitem>
     </varlistentry>
     <varlistentry>

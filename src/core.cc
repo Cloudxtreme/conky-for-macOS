@@ -42,28 +42,28 @@
 #include "text_object.h"
 #ifdef BUILD_IMLIB2
 #include "imlib2.h"
-#endif
+#endif /* BUILD_IMLIB2 */
 #include "proc.h"
 #ifdef BUILD_MYSQL
 #include "mysql.h"
-#endif
+#endif /* BUILD_MYSQL */
 #ifdef BUILD_ICAL
 #include "ical.h"
-#endif
+#endif /* BUILD_ICAL */
 #ifdef BUILD_IRC
 #include "irc.h"
-#endif
+#endif /* BUILD_IRC */
 #ifdef BUILD_X11
 #include "fonts.h"
-#endif
+#endif /* BUILD_X11 */
 #include "fs.h"
 #ifdef BUILD_IBM
 #include "ibm.h"
 #include "smapi.h"
-#endif
+#endif /* BUILD_IBM */
 #ifdef BUILD_ICONV
 #include "iconv_tools.h"
-#endif
+#endif /* BUILD_ICONV */
 #include "llua.h"
 #include "logging.h"
 #include "mail.h"
@@ -73,7 +73,7 @@
 #include "net_stat.h"
 #ifdef BUILD_NVIDIA
 #include "nvidia.h"
-#endif
+#endif /* BUILD_NVIDIA */
 #include <inttypes.h>
 #include "cpu.h"
 #include "read_tcpip.h"
@@ -97,16 +97,16 @@
 #endif /* BUILD_RSS */
 #ifdef BUILD_AUDACIOUS
 #include "audacious.h"
-#endif
+#endif /* BUILD_AUDACIOUS */
 #ifdef BUILD_CMUS
 #include "cmus.h"
-#endif
+#endif /* BUILD_CMUS */
 #ifdef BUILD_JOURNAL
 #include "journal.h"
-#endif
+#endif /* BUILD_JOURNAL */
 #ifdef BUILD_PULSEAUDIO
 #include "pulseaudio.h"
-#endif
+#endif /* BUILD_PULSEAUDIO */
 
 /* check for OS and include appropriate headers */
 #if defined(__linux__)
@@ -486,7 +486,7 @@ struct text_object *construct_text_object(char *s, const char *arg, long line,
     obj->data.i = atoi(&arg[0]);
   }
   obj->callbacks.print = &print_voltage_v;
-    
+
 #endif /* __linux__ */
 
 #ifdef BUILD_WLAN
@@ -522,7 +522,7 @@ struct text_object *construct_text_object(char *s, const char *arg, long line,
     parse_net_stat_bar_arg(obj, arg, free_at_crash);
     obj->callbacks.barval = &wireless_link_barval;
 #endif /* BUILD_WLAN */
-    
+
 #ifndef __OpenBSD__
   END OBJ(acpifan, nullptr) obj->callbacks.print = &print_acpifan;
   END OBJ(battery, nullptr) char bat[64];
@@ -544,6 +544,10 @@ struct text_object *construct_text_object(char *s, const char *arg, long line,
   }
   obj->data.s = strndup(bat, text_buffer_size.get(*state));
   obj->callbacks.print = &print_battery_short;
+  obj->callbacks.free = &gen_free_opaque;
+
+  END OBJ(battery_status, 0) obj->data.s = strndup(arg ? arg : "BAT0", text_buffer_size.get(*state));
+  obj->callbacks.print = &print_battery_status;
   obj->callbacks.free = &gen_free_opaque;
   END OBJ(battery_time, nullptr) char bat[64];
 
@@ -826,14 +830,20 @@ struct text_object *construct_text_object(char *s, const char *arg, long line,
   obj->callbacks.free = &gen_free_opaque;
 
 #ifdef BUILD_X11
-  END OBJ(num_led, 0) obj->callbacks.print = &print_num_led;
-  END OBJ(caps_led, 0) obj->callbacks.print = &print_caps_led;
-  END OBJ(scroll_led, 0) obj->callbacks.print = &print_scroll_led;
-  END OBJ(kb_layout, 0) obj->callbacks.print = &print_kb_layout;
+  END OBJ(key_num_lock, 0) obj->callbacks.print = &print_key_num_lock;
+  END OBJ(key_caps_lock, 0) obj->callbacks.print = &print_key_caps_lock;
+  END OBJ(key_scroll_lock, 0) obj->callbacks.print = &print_key_scroll_lock;
+  END OBJ(keyboard_layout, 0) obj->callbacks.print = &print_keyboard_layout;
   END OBJ(mouse_speed, 0) obj->callbacks.print = &print_mouse_speed;
 #endif /* BUILD_X11 */
 
-  END OBJ(password, 0) obj->data.s = STRNDUP_ARG;
+#ifdef __FreeBSD__
+  END OBJ(sysctlbyname, 0) obj->data.s = STRNDUP_ARG;
+  obj->callbacks.print = &print_sysctlbyname;
+  obj->callbacks.free = &gen_free_opaque;
+#endif /* __FreeBSD__ */
+
+  END OBJ(password, 0) obj->data.s = strndup(arg ? arg : "20", text_buffer_size.get(*state));
   obj->callbacks.print = &print_password;
   obj->callbacks.free = &gen_free_opaque;
 
@@ -841,10 +851,9 @@ struct text_object *construct_text_object(char *s, const char *arg, long line,
   END OBJ(freq2, 0) obj->callbacks.print = &print_freq2;
 #endif /* __x86_64__ */
 
-  END OBJ(cap, 0) obj->data.s = STRNDUP_ARG;
+  END OBJ(start_case, 0) obj->data.s = STRNDUP_ARG;
   obj->callbacks.print = &print_cap;
   obj->callbacks.free = &gen_free_opaque;
-
   END OBJ(catp, 0) obj->data.s = STRNDUP_ARG;
   obj->callbacks.print = &print_catp;
   obj->callbacks.free = &gen_free_opaque;
@@ -1694,6 +1703,7 @@ struct text_object *construct_text_object(char *s, const char *arg, long line,
       curl_parse_arg(obj, arg);
   obj->callbacks.print = &curl_print;
   obj->callbacks.free = &curl_obj_free;
+  END OBJ(github_notifications, 0) obj->callbacks.print = &print_github;
 #endif /* BUILD_CURL */
 #ifdef BUILD_RSS
   END OBJ_ARG(rss, 0,

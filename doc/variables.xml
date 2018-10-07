@@ -446,6 +446,19 @@
     <varlistentry>
         <term>
             <command>
+                <option>battery_status</option>
+            </command>
+            <option>(num)</option>
+        </term>
+        <listitem>Battery status for ACPI battery.
+            ACPI battery number can be given as argument
+            (default is BAT0).
+        <para /></listitem>
+    </varlistentry>
+
+    <varlistentry>
+        <term>
+            <command>
                 <option>battery_time</option>
             </command>
             <option>(num)</option>
@@ -1404,6 +1417,17 @@
     <varlistentry>
         <term>
             <command>
+                <option>freq2</option>
+            </command>
+            <option>(n)</option>
+        </term>
+        <listitem>Returns CPU #n's clock speed from assembly in MHz. CPUs are
+        counted from 1. If omitted, the parameter defaults to 1.
+        <para /></listitem>
+    </varlistentry>
+    <varlistentry>
+        <term>
+            <command>
                 <option>fs_bar</option>
             </command>
             <option>(height),(width) fs</option>
@@ -1489,12 +1513,19 @@
     <varlistentry>
         <term>
             <command>
+                <option>github_notifications</option>
+            </command>
+        </term>
+        <listitem>Number of GitHub notifications.<para /></listitem>
+    </varlistentry>
+    <varlistentry>
+        <term>
+            <command>
                 <option>goto</option>
             </command>
             <option>x</option>
         </term>
         <listitem>The next element will be printed at position 'x'.
-
         <para /></listitem>
     </varlistentry>
     <varlistentry>
@@ -2102,6 +2133,42 @@
     <varlistentry>
         <term>
             <command>
+                <option>key_caps_lock</option>
+            </command>
+        </term>
+        <listitem>An indicator for Capital Lock key.
+        <para /></listitem>
+    </varlistentry>
+    <varlistentry>
+        <term>
+            <command>
+                <option>key_num_lock</option>
+            </command>
+        </term>
+        <listitem>An indicator for Number Lock key.
+        <para /></listitem>
+    </varlistentry>
+    <varlistentry>
+        <term>
+            <command>
+                <option>key_scroll_lock</option>
+            </command>
+        </term>
+        <listitem>An indicator for Scrolling Lock key.
+        <para /></listitem>
+    </varlistentry>
+    <varlistentry>
+        <term>
+            <command>
+                <option>keyboard_layout</option>
+            </command>
+        </term>
+        <listitem>Display keyboard layout.
+        <para /></listitem>
+    </varlistentry>
+    <varlistentry>
+        <term>
+            <command>
                 <option>version</option>
             </command>
         </term>
@@ -2577,6 +2644,15 @@
         </term>
         <listitem>Number of monitors or the message "Not running in
         X" if this is the case.
+        <para /></listitem>
+    </varlistentry>
+    <varlistentry>
+        <term>
+            <command>
+                <option>mouse_speed</option>
+            </command>
+        </term>
+        <listitem>Display mouse speed.
         <para /></listitem>
     </varlistentry>
     <varlistentry>
@@ -3100,6 +3176,16 @@
             <option>(color)</option>
         </term>
         <listitem>Change outline color
+        <para /></listitem>
+    </varlistentry>
+    <varlistentry>
+        <term>
+            <command>
+                <option>password</option>
+            </command>
+            <option>(length)</option>
+        </term>
+        <listitem>Generate random passwords.
         <para /></listitem>
     </varlistentry>
     <varlistentry>
@@ -3912,6 +3998,15 @@
     <varlistentry>
         <term>
             <command>
+                <option>start_case</option>
+            </command>
+            <option>text</option>
+        </term>
+        <listitem>All words capitalized regardless.<para /></listitem>
+    </varlistentry>
+    <varlistentry>
+        <term>
+            <command>
                 <option>stippled_hr</option>
             </command>
             <option>(space)</option>
@@ -3983,6 +4078,16 @@
             </command>
         </term>
         <listitem>System name, Linux for example
+        <para /></listitem>
+    </varlistentry>
+    <varlistentry>
+        <term>
+            <command>
+                <option>sysctlbyname</option>
+            </command>
+            <option>(name)</option>
+        </term>
+        <listitem>Print sysctl value by name. For FreeBSD only.
         <para /></listitem>
     </varlistentry>
     <varlistentry>

@@ -74,6 +74,9 @@ int round_to_int_temp(float);
 unsigned int round_to_int(float);
 
 extern conky::simple_config_setting<bool> no_buffers;
+extern conky::simple_config_setting<std::string> bar_fill;
+extern conky::simple_config_setting<std::string> bar_unfill;
+extern conky::simple_config_setting<std::string> github_token;
 
 int open_acpi_temperature(const char *name);
 double get_acpi_temperature(int fd);
@@ -156,6 +159,7 @@ void print_battery(struct text_object *, char *, unsigned int);
 void print_battery_time(struct text_object *, char *, unsigned int);
 uint8_t battery_percentage(struct text_object *);
 void print_battery_short(struct text_object *, char *, unsigned int);
+void print_battery_status(struct text_object *, char *, unsigned int);
 #endif /* !__OpenBSD__ */
 
 void free_cpu(struct text_object *);
@@ -167,6 +171,7 @@ void print_updates(struct text_object *, char *, unsigned int);
 int updatenr_iftest(struct text_object *);
 
 #ifdef BUILD_CURL
+void print_github(struct text_object *, char *, unsigned int);
 void print_stock(struct text_object *, char *, unsigned int);
 void free_stock(struct text_object *);
 #endif /* BUILD_CURL */
