@@ -2,6 +2,12 @@
 
 [![Build Status](https://travis-ci.org/brndnmtthws/conky.png)](https://travis-ci.org/brndnmtthws/conky) [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=conky&metric=alert_status)](https://sonarcloud.io/dashboard/index/conky)
 
+### *This branch of conky is maintained as part of the [ManageConky](https://github.com/Conky-for-macOS/Manage-Conky) project (formely [ConkyX](https://github.com/Conky-for-macOS/ConkyX)).*
+
+### *It provides a `.xcodeproj` which aids to easy compilation/integration of conky via Xcode*
+
+<hr>
+
 **Conky** is a free, light-weight system monitor for X, that displays
 any kind of information on your desktop.
 
