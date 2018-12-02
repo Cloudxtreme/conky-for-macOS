@@ -257,6 +257,18 @@
     <varlistentry>
         <term>
             <command>
+                <option>draw_blended</option>
+            </command>
+        </term>
+        <listitem>Boolean, blend when rendering drawn image?
+        Some images blend incorrectly breaking alpha with ARBG visuals. This
+        provides a possible work around by disabling blending. Defaults to
+        true.
+        <para /></listitem>
+    </varlistentry>
+    <varlistentry>
+        <term>
+            <command>
                 <option>draw_borders</option>
             </command>
         </term>
@@ -310,6 +322,18 @@
         nice font
         <para /></listitem>
     </varlistentry>
+    <varlistentry>
+        <term>
+            <command>
+                <option>fontN</option>
+            </command>
+        </term>
+        <listitem>Predefine a font to be used in conky.text segments.
+        Substitute N by a number between 0 and 9 inclusive. Use the same
+        format as a font variable.
+        <para /></listitem>
+    </varlistentry>
+
     <varlistentry>
         <term>
             <command>

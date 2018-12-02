@@ -1360,6 +1360,16 @@
     <varlistentry>
         <term>
             <command>
+                <option>fontN</option>
+            </command>
+        </term>
+        <listitem>Change font to fontN configuration
+        option, where N is a digit between 0 and 9, inclusively. 
+        <para /></listitem>
+    </varlistentry>
+    <varlistentry>
+        <term>
+            <command>
                 <option>format_time</option>
             </command>
             <option>seconds format</option>
@@ -2378,6 +2388,21 @@
             <option>(height),(width)</option>
         </term>
         <listitem>Bar that shows amount of memory in use (including memory used by system buffers and caches)
+        <para /></listitem>
+    </varlistentry>
+    <varlistentry>
+        <term>
+            <command>
+                <option>memwithbuffersgraph</option>
+            </command>
+            <option>(height),(width) (gradient colour 1) (gradient
+            colour 2) (scale) (-t) (-l)</option>
+        </term>
+        <listitem>Memory usage graph including memory used by system buffers and
+            cache. Uses a logarithmic scale (to see small numbers) when you use
+            the -l switch. Takes the switch '-t' to use a temperature gradient,
+            which makes the gradient values change depending on the amplitude of
+            a particular graph value (try it and see).
         <para /></listitem>
     </varlistentry>
     <varlistentry>
