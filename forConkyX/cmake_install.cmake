@@ -33,7 +33,7 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/conky-1.11.0_pre" TYPE FILE FILES
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/conky-1.11.1_pre" TYPE FILE FILES
     "/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/extras/convert.lua"
     "/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/data/conky_no_x11.conf"
     "/Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/data/conky.conf"

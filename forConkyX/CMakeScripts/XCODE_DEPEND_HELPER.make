@@ -18,8 +18,10 @@ PostBuild.conky.Debug:
 	/usr/X11R6/lib/libXext.dylib\
 	/usr/X11R6/lib/libXft.dylib\
 	/usr/X11R6/lib/libXext.dylib\
+	/usr/lib/libxml2.dylib\
 	/usr/X11R6/lib/libXinerama.dylib\
 	/usr/X11R6/lib/libXft.dylib\
+	/usr/lib/libxml2.dylib\
 	/usr/X11R6/lib/libXinerama.dylib
 	/bin/rm -f /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/src/Debug/conky
 
@@ -35,8 +37,10 @@ PostBuild.conky.Release:
 	/usr/X11R6/lib/libXext.dylib\
 	/usr/X11R6/lib/libXft.dylib\
 	/usr/X11R6/lib/libXext.dylib\
+	/usr/lib/libxml2.dylib\
 	/usr/X11R6/lib/libXinerama.dylib\
 	/usr/X11R6/lib/libXft.dylib\
+	/usr/lib/libxml2.dylib\
 	/usr/X11R6/lib/libXinerama.dylib
 	/bin/rm -f /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/src/Release/conky
 
@@ -52,8 +56,10 @@ PostBuild.conky.MinSizeRel:
 	/usr/X11R6/lib/libXext.dylib\
 	/usr/X11R6/lib/libXft.dylib\
 	/usr/X11R6/lib/libXext.dylib\
+	/usr/lib/libxml2.dylib\
 	/usr/X11R6/lib/libXinerama.dylib\
 	/usr/X11R6/lib/libXft.dylib\
+	/usr/lib/libxml2.dylib\
 	/usr/X11R6/lib/libXinerama.dylib
 	/bin/rm -f /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/src/MinSizeRel/conky
 
@@ -69,8 +75,10 @@ PostBuild.conky.RelWithDebInfo:
 	/usr/X11R6/lib/libXext.dylib\
 	/usr/X11R6/lib/libXft.dylib\
 	/usr/X11R6/lib/libXext.dylib\
+	/usr/lib/libxml2.dylib\
 	/usr/X11R6/lib/libXinerama.dylib\
 	/usr/X11R6/lib/libXft.dylib\
+	/usr/lib/libxml2.dylib\
 	/usr/X11R6/lib/libXinerama.dylib
 	/bin/rm -f /Users/npyl/Manage-Conky/ConkyX/conky-for-macOS/forConkyX/src/RelWithDebInfo/conky
 
@@ -86,4 +94,5 @@ PostBuild.conky.RelWithDebInfo:
 /usr/X11R6/lib/libXinerama.dylib:
 /usr/lib/libcurses.dylib:
 /usr/lib/libform.dylib:
+/usr/lib/libxml2.dylib:
 /usr/local/lib/libintl.dylib:

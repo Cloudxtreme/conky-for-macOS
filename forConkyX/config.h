@@ -10,7 +10,7 @@
 
 #define SYSTEM_NAME "Darwin"
 #define PACKAGE_NAME "conky"
-#define VERSION "1.11.0_pre"
+#define VERSION "1.11.1_pre"
 #define SYSTEM_CONFIG_FILE "/etc/conky/conky.conf"
 #define PACKAGE_LIBDIR "/usr/local/lib/conky"
 #define DEFAULTNETDEV "en0"
